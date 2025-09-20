@@ -3,7 +3,7 @@ from django.db import models
 
 class Category(models.Model):
     name = models.CharField(max_length=100)
-    slug = models.SlugField(max_length=200)
+    slug = models.SlugField(max_length=200, unique=True)
 
     class Meta:
         ordering = ["name"]
@@ -33,7 +33,7 @@ class Product(models.Model):
         indexes = [
             models.Index(fields=["id", "slug"]),
             models.Index(fields=["name"]),
-            models.Index(fields=["created"]),
+            models.Index(fields=["-created"]),
         ]
 
     def __str__(self):
