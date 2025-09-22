@@ -15,3 +15,5 @@ class ProductAdmin(ModelAdmin):
     list_filter = ["available", "created", "updated"]
     list_editable = ["price", "available"]
     prepopulated_fields = {"slug": ("name",)}
+# On this day I posed to first take off a break off the screen for more than 24 hours.
+# From 22/9/2025 at 3:51 pm to 24/9/2025 in the morning hours.
