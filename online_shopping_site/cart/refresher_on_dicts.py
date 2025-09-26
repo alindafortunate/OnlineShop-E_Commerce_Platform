@@ -35,3 +35,15 @@ total = alinda_Shopping_Cart.total_items()
 print(f"{total} items")
 print(alinda_Shopping_Cart.cart)
 print(alinda_Shopping_Cart.total_price())
+
+# Basic dictionary looping.
+product_id1 = 1
+product_id2 = 2
+product_id3 = 3
+cart = {
+    1: {"price": 100, "quantity": 3},
+    2: {"price": 600, "quantity": 3, "name": "sweater"},
+    4: {"quantity": 30},
+}
+for product_id in cart:
+    print(product_id)
