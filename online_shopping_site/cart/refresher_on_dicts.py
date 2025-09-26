@@ -43,7 +43,21 @@ product_id3 = 3
 cart = {
     1: {"price": 100, "quantity": 3},
     2: {"price": 600, "quantity": 3, "name": "sweater"},
-    4: {"quantity": 30},
+    4: {"quantity": 30, 'price':300},
 }
 for product_id in cart:
     print(product_id)
+
+# More looping in dicts.
+# looping by using keys explicitly
+for product_id in cart.keys():
+    print(product_id)
+
+# looping using the values method to get only values.
+for product_id in cart.values():
+    print(product_id)
+
+# looping using the items method
+for product_id, product_data in cart.items():
+    print(product_data['price']) 
+
