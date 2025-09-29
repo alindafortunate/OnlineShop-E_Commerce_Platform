@@ -30,6 +30,7 @@ class Cart:
             self.cart[product_id]["quantity"] = quantity
         else:
             self.cart[product_id]["quantity"] += quantity
+        self.save()
 
     def save(self):
         # Mark the session as modified to make sure it gets saved.
@@ -42,7 +43,6 @@ class Cart:
         product_id = str(product.id)
         if product_id in self.cart:
             del self.cart[product_id]
-
         self.save()
 
     # Re-implementing the __iter__() method
