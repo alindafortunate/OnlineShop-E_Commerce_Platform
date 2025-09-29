@@ -1,0 +1,49 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+
+{% block title %}Your Shopping Cart.{% endblock title %}
+
+
+{% block content %}
+<h1>Your Shopping Cart</h1>
+<table class="cart">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Remove</th>
+            <th>Unit Price</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in cart %}        
+        {% with product=item.product  %}
+        <tr>
+        <td>
+            <a href="{{product.get_absolute_url}}">
+            <img src="{% if product.image %} {{product.image.url}} {% else %} {% static 'img/no_image.png' %}  {% endif %}" alt="{{product.name}}">
+            </a>
+        </td>
+        <td>{{product.name}}</td>
+        <td>{{item.quantity}}</td>
+        <td>
+            <form action="{% url 'cart:cart_remove' product_id %}" method="post">
+                <input type="submit" value="Remove">
+                {% csrf_token %}
+            </form>
+        </td>
+        </tr>
+            
+        {% endwith %}
+            
+            
+        {% endfor %}
+    </tbody>
+
+</table>
+    
+{% endblock content %}
+    
+    
