@@ -16,7 +16,7 @@ class Cart:
 
     def add(self, product, quantity=1, override_quantity=False):
         """
-        Add products to the cart.
+        Add a product to the cart or update it's quantity.
         """
         product_id = str(product.id)
         if product_id not in self.cart:
@@ -32,13 +32,52 @@ class Cart:
         self.save()
 
     def save(self):
+        # Mark the session as modified.
         self.session.modified = True
 
     def remove(self, product):
         """
-        Remove products from the cart.
+        Remove a product from the cart.
         """
         product_id = str(product.id)
         if product_id in self.cart:
             del self.cart[product_id]
+        self.save()
+
+    def __iter__(self):
+        """
+        Iterate over cart items and retrieve products from the database.
+        """
+        product_ids = self.cart.keys()
+        products = Product.objects.filter(id__in=product_ids)
+
+        cart = self.cart.copy()
+        for product in products:
+            # Adding product instances to the cart.
+            cart[str(product.id)]["product"] = product
+        for item in cart.values():
+            item["price"] = Decimal(item["price"])
+            item["total_price"] = item["price"] * item["quantity"]
+
+            yield item
+
+    def __len__(self):
+        """
+        Returns the total number of items in the cart.
+        """
+        return sum(item["quantity"] for item in self.cart.values())
+
+    def get_total_price(self):
+        """
+        Returns the total price for the items in the cart.
+        """
+        return sum(
+            Decimal(item["price"]) * item["quantity"] for item in self.cart.values()
+        )
+
+    def clear(self):
+        """
+        Removes cart from session
+        """
+        del self.session[settings.CART_SESSION_ID]
         self.save()
