@@ -14,7 +14,15 @@
     </div>
     <div id="subheader">
         <div class="cart">
-            Your cart is empty.
+            
+            {% if cart|length > 0 %}
+            Your cart has {{cart|length}} items;
+            Total Price: ${{cart.get_total_price}}
+            {% else %}
+              Your cart is empty.  
+            {% endif %}
+                
+            
         </div>
     </div>
 
