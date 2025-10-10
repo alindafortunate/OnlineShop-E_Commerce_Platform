@@ -40,4 +40,5 @@ class OrderItem(models.Model):
 
 # Continuation with coding.
 # 6/10/2025 on this day I started a new dawn of programming
+# 10/10/2025 it's the day I started real coding for could be the last phase of learning programming.
 
