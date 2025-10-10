@@ -17,7 +17,7 @@ class Order(models.Model):
         indexes = [models.Index(fields=["-created"])]
 
     def __str__(self):
-        return f"{self.id}"
+        return f"Order {self.id}"
 
     def get_total_cost(self):
         return sum((item.get_cost()) for item in self.items.all())
