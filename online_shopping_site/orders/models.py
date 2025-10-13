@@ -6,7 +6,7 @@ class Order(models.Model):
     last_name = models.CharField(max_length=50)
     email = models.EmailField()
     address = models.CharField(max_length=50)
-    post_code = models.CharField(max_length=20)
+    postal_code = models.CharField(max_length=20)
     city = models.CharField(max_length=100)
     paid = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True)
@@ -41,4 +41,3 @@ class OrderItem(models.Model):
 # Continuation with coding.
 # 6/10/2025 on this day I started a new dawn of programming
 # 10/10/2025 it's the day I started real coding for could be the last phase of learning programming.
-
