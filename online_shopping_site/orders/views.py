@@ -17,8 +17,8 @@ def order_create(request):
                     price=item["price"],
                     quantity=item["quantity"],
                 )
-        # clear the cart.
-        cart.clear()
+            # clear the cart.
+            cart.clear()
         return render(request, "orders/order/created.html", {"order": order})
     else:
         form = OrderCreateForm()
