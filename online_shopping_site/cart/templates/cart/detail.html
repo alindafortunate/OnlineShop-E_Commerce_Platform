@@ -1,5 +1,6 @@
 {% extends 'shop/base.html' %}
 {% load static %}
+{% load thumbnail %}
 
 {% block title %}Your Shopping Cart.{% endblock title %}
 
@@ -22,8 +23,9 @@
         {% with product=item.product  %}
         <tr>
         <td>
+            {% thumbnail product.image 600x600 as im %}
             <a href="{{product.get_absolute_url}}">
-            <img src="{% if product.image %} {{product.image.url}} {% else %} {% static 'img/no_image.png' %}  {% endif %}" alt="{{product.name}}">
+            <img src="{% if im %} {{im.url}} {% else %} {% static 'img/no_image.png' %}  {% endif %}" alt="{{product.name}}">
             </a>
         </td>
         <td>{{product.name}}</td>
