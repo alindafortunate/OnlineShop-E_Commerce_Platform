@@ -7,7 +7,7 @@
 {% block content %}   
     
 <div class="product-detail">    
-    {% thumbnail product.image 1000x1000 as im %}
+    {% thumbnail product.image 1200x1000  as im %}
     <img src="{% if im %} {{im.url}} {% else %} {% static 'img/no_image.png' %} {% endif %}" alt="">
     <h1>{{product.name}}</h1>
     <h2><a href="{{product.category.get_absolute_url}}">{{product.category}}</a></h2>
