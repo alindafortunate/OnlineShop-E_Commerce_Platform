@@ -6,6 +6,7 @@ click==8.3.0
 click-didyoumean==0.3.1
 click-plugins==1.1.1.2
 click-repl==0.3.0
+dj-database-url==3.0.1
 Django==5.2.6
 easy-thumbnails==2.10.1
 flower==2.0.1
@@ -15,6 +16,7 @@ packaging==25.0
 pillow==11.3.0
 prometheus_client==0.23.1
 prompt_toolkit==3.0.52
+psycopg2-binary==2.9.11
 python-dateutil==2.9.0.post0
 python-decouple==3.8
 pytz==2025.2
