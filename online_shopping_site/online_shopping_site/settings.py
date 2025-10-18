@@ -27,9 +27,10 @@ SECRET_KEY = config("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "https://online-shopping-site-jr3o.onrender.com",
+    "online-shopping-site-jr3o.onrender.com",
     "localhost",
     "127.0.0.1",
+    
 ]
 
 
