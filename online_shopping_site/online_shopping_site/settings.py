@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "cart.apps.CartConfig",
     "orders.apps.OrdersConfig",
     "shop.apps.ShopConfig",
+    "payment.apps.PaymentConfig",
     "easy_thumbnails",
 ]
 
@@ -155,4 +156,4 @@ DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
 # Working with Stripe Payment Processing
 STRIPE_PUBLISHABLE_KEY = config("STRIPE_PUBLISHABLE_KEY")
 STRIPE_SECRET_KEY = config("STRIPE_SECRET_KEY")
-STRIPE_VERSION = "2025-09-30.clover"
+STRIPE_API_VERSION = "2025-09-30.clover"
