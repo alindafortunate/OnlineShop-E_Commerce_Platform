@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from .models import OrderItem
 from .forms import OrderCreateForm
 from cart.cart import Cart
@@ -21,8 +21,13 @@ def order_create(request):
             # clear the cart.
             cart.clear()
             # Launch an asychronous order_created task
-            # order_created.delay(order.id) # Due to render deployment I am not able to use RabbitMQ so I have commented out this line.
-        return render(request, "orders/order/created.html", {"order": order})
+            order_created.delay(
+                order.id
+            )  # Due to render deployment I am not able to use RabbitMQ so I have commented out this line.
+            # Set the order in the session.
+            request.session["order_id"] = order.id
+            # redirect for payment
+            return redirect("payment: process")
     else:
         form = OrderCreateForm()
         return render(request, "orders/order/create.html", {"cart": cart, "form": form})
