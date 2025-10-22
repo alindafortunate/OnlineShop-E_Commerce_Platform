@@ -30,7 +30,6 @@ ALLOWED_HOSTS = [
     "online-shopping-site-jr3o.onrender.com",
     "localhost",
     "127.0.0.1",
-    
 ]
 
 
@@ -152,3 +151,8 @@ EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD", default="")
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
+
+# Working with Stripe Payment Processing
+STRIPE_PUBLISHABLE_KEY = config("STRIPE_PUBLISHABLE_KEY")
+STRIPE_SECRET_KEY = config("STRIPE_SECRET_KEY")
+STRIPE_VERSION = "2025-09-30.clover"
