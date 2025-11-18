@@ -24,6 +24,20 @@ def payment_process(request):
             "cancel_url": cancel_url,
             "line_items": [],
         }
+        # Add order_items to the stripe checkout session.
+        for item in order.items.all():
+            session_data["line_items"].append(
+                {
+                    "price_data": {
+                        "unit_amount": int(item.price * Decimal("100")),
+                        "currency": "usd",
+                        "product_data": {
+                            "name": item.product.name,
+                        },
+                    },
+                    "quantity": item.quantity,
+                }
+            )
         # create a stripe checkout session
         session = stripe.checkout.Session.create(**session_data)
         # Redirect to stripe payment form.
