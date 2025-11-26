@@ -28,7 +28,7 @@ def stripe_webhook(request):
             except Order.DoesNotExist:
                 return HttpResponse(status=404)
             # Mark order as paid
-            order.paid = True
+            order.paid = True  # I have seen the functionality of a webhook work, but I have not understood it surely. I need explanation for this.
             order.save()
 
     return HttpResponse(status=200)
