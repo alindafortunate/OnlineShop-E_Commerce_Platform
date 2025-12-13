@@ -29,3 +29,4 @@ def product_detail(request, id, slug):
             "cart_product_form": cart_product_form,
         },
     )
+#returning to code by setting up the environment
