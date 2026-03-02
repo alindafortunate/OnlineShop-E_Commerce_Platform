@@ -21,9 +21,9 @@ def order_create(request):
             # clear the cart.
             cart.clear()
             # Launch an asychronous order_created task
-            order_created.delay(
-                order.id
-            )  # Due to render deployment I am not able to use RabbitMQ so I have commented out this line.
+            # order_created.delay(
+            #     order.id
+            # )  # Due to render deployment I am not able to use RabbitMQ so I have commented out this line.
             # Set the order in the session.
             request.session["order_id"] = order.id
             # redirect for payment
