@@ -42,6 +42,16 @@ def export_data_to_csv(modeladmin, request, queryset):
     # Write the first data row (That's the heading)
     csv_writer.writerow([field.verbose_name for field in fields])
 
+    # Writing the values for the field names.
+    for obj in queryset:
+        data_row = []
+        for field in fields:
+            value = getattr(obj, field.name)
+            if isinstance(value, datetime.datetime):
+                value = value.strftime("%d/%m/%Y")
+            data_row.append(value)
+        csv_writer.writerow(data_row)
+
     return response
 
 
