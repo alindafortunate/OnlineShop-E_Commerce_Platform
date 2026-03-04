@@ -23,6 +23,31 @@ def order_payment(obj):
 order_payment.short_description = "Stripe payment"
 
 
+def export_data_to_csv(modeladmin, request, queryset):
+    """This functions export data from the django admin to a csv file."""
+    opts = modeladmin.model._meta
+    response = HttpResponse(
+        content_type="text/csv",
+        headers={
+            "Content-Disposition": f'attachment; filename="{opts.verbose_name}.csv"'
+        },
+    )
+
+    csv_writer = csv.writer(response)
+    fields = [
+        field
+        for field in opts.get_fields()
+        if not field.many_to_many and not field.one_to_many
+    ]
+    # Write the first data row (That's the heading)
+    csv_writer.writerow([field.verbose_name for field in fields])
+
+    return response
+
+
+export_data_to_csv.short_description = "Export to CSV"
+
+
 @admin.register(Order)
 class OrderAdmin(ModelAdmin):
     list_display = [
@@ -40,3 +65,4 @@ class OrderAdmin(ModelAdmin):
     ]
     list_filter = ["paid", "created", "updated"]
     inlines = [OrderItemInline]
+    actions = [export_data_to_csv]
