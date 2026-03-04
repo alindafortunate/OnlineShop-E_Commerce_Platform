@@ -1,4 +1,5 @@
-from django.shortcuts import redirect, render
+from django.contrib.admin.views.decorators import staff_member_required
+from django.shortcuts import get_object_or_404, redirect, render
 from .models import OrderItem
 from .forms import OrderCreateForm
 from cart.cart import Cart
@@ -36,3 +37,9 @@ def order_create(request):
 # On 16th/10/2025 I installed RabbitMQ
 # On 14th/11/2025 I resumed coding after the period of inactivity.
 # On 12th/Dec/2025 I switched the machine for programming and by 13th/Dec/2025 after lunch time I was almost completing
+
+
+@staff_member_required
+def admin_order_detail(request, order_id):
+    order = get_object_or_404(OrderItem, id=order_id)
+    return render(request, "admin/orders/order/detail.html", {"order": order})
