@@ -10,8 +10,7 @@ Order {{order.id}} {{block.super}}
 <a href="{% url 'admin:orders_order_changelist' %}">Orders</a>&rsaquo;
 <a href="{% url 'admin:orders_order_change' order.id %}">
 Order {{ order.id}}
-</a>
-&rsaquo; Detail
+</a>&rsaquo; Detail
 </div>
 
 {% endblock breadcrumbs %}
