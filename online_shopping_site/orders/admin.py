@@ -25,7 +25,7 @@ order_payment.short_description = "Stripe payment"
 
 
 def export_data_to_csv(modeladmin, request, queryset):
-    """This functions export data from the django admin to a csv file."""
+    """This functions exports data from django admin to a csv file."""
     opts = modeladmin.model._meta
     response = HttpResponse(
         content_type="text/csv",
