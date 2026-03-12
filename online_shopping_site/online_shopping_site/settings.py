@@ -92,7 +92,7 @@ WSGI_APPLICATION = "online_shopping_site.wsgi.application"
 # }
 # Online DB
 DATABASES = {
-    "default": dj_database_url.parse(config("External_Database_URL")),
+    "default": dj_database_url.parse(config("Internal_Database_URL")),
 }
 
 # Password validation
