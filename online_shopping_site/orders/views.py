@@ -55,7 +55,9 @@ def order_generate_pdf(request, order_id):
     response = HttpResponse(content_type="application/pdf")
     response["Content-Disposition"] = f"filename=order_{order.id}.pdf"
     html = render_to_string("orders/order/pdf.html", {"order": order})
+    print("HTML repr:", repr(html))
     weasyprint.HTML(string=html).write_pdf(
         response, stylesheets=[weasyprint.CSS(finders.find("css/pdf.css"))]
     )
+    # stylesheets=[weasyprint.CSS(finders.find("css/pdf.css"))]
     return response

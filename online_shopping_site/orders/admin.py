@@ -65,6 +65,14 @@ def order_detail(obj):
     return mark_safe(f'<a href="{url}">View</a>')
 
 
+def generate_pdf(obj):
+    url = reverse("orders:admin_order_generate_pdf", args=[obj.id])
+    return mark_safe(f'<a href="{url}">PDF</a>')
+
+
+generate_pdf.short_description = "Invoice"
+
+
 @admin.register(Order)
 class OrderAdmin(ModelAdmin):
     list_display = [
@@ -80,6 +88,7 @@ class OrderAdmin(ModelAdmin):
         "created",
         "updated",
         order_detail,
+        generate_pdf,
     ]
     list_filter = ["paid", "created", "updated"]
     inlines = [OrderItemInline]
