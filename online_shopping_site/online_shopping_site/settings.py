@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "payment.apps.PaymentConfig",
     "shop.apps.ShopConfig",
     "easy_thumbnails",
+    "coupons.apps.CouponsConfig",
 ]
 
 MIDDLEWARE = [
