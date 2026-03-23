@@ -19,4 +19,4 @@ def apply_coupon(request):
             request.session["coupon_id"] = coupon.id
         except Coupon.DoesNotExist:
             request.session["coupon_id"] = None
-    redirect("cart:cart_detail")
+    return redirect("cart:cart_detail")
