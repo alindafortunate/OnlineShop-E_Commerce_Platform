@@ -15,7 +15,11 @@ def order_create(request):
     if request.method == "POST":
         form = OrderCreateForm(request.POST)
         if form.is_valid():
-            order = form.save()
+            order = form.save(commit=False)
+            if cart.coupon:
+                order.coupon = cart.coupon
+                order.discount = cart.coupon.discount
+            order.save()
             for item in cart:
                 OrderItem.objects.create(
                     order=order,
@@ -54,7 +58,7 @@ def order_generate_pdf(request, order_id):
     order = get_object_or_404(Order, id=order_id)
     response = HttpResponse(content_type="application/pdf")
     response["Content-Disposition"] = f"filename=order_{order.id}.pdf"
-    html = render_to_string("orders/order/pdf.html", {"order": order})    
+    html = render_to_string("orders/order/pdf.html", {"order": order})
     weasyprint.HTML(string=html).write_pdf(
         response, stylesheets=[weasyprint.CSS(finders.find("css/pdf.css"))]
     )
