@@ -38,6 +38,14 @@ def payment_process(request):
                     "quantity": item.quantity,
                 }
             )
+        # stripe coupon
+        if order.coupon:
+            stripe_coupon = stripe.Coupon.create(
+                name=order.coupon.code,
+                percent_off=order.discount,
+                duration="once",
+            )
+            session_data["discounts"] = [{"coupon": stripe_coupon.id}]
         # create a stripe checkout session
         session = stripe.checkout.Session.create(**session_data)
         # Redirect to stripe payment form.
@@ -53,4 +61,5 @@ def payment_completed(request):
 def payment_canceled(request):
     return render(request, "payment/canceled.html")
 
-# Read about webhooks. 
+
+# Read about webhooks.
