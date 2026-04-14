@@ -118,7 +118,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "en"
+LANGUAGE = [("en", "English"), ("es", "Spanish")]
 
 TIME_ZONE = "UTC"
 
@@ -161,6 +162,6 @@ STRIPE_API_VERSION = "2025-09-30.clover"
 STRIPE_WEBHOOK_SECRET = config("STRIPE_WEBHOOK_SECRET")
 
 # Redis configurations
-REDIS_HOST='localhost'
-REDIS_PORT=6379
-REDIS_DB=0
+REDIS_HOST = "localhost"
+REDIS_PORT = 6379
+REDIS_DB = 0
