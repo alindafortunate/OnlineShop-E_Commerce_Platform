@@ -24,7 +24,7 @@ class Recommender:
             for with_id in product_ids:
                 if with_id != product_id:
                     # increment the score for the products bought together.
-                    r.zincrby(self.get_product_keys(product_id), 1, with_id)
+                    r.zincrby(self.get_product_key(product_id), 1, with_id)
 
     def suggest_products_for(self, products, max_results=6):
         product_ids = [p.id for p in products]
@@ -52,3 +52,7 @@ class Recommender:
         suggested_products = list(Product.objects.filter(id__in=suggested_product_ids))
         suggested_products.sort(key=lambda x: suggested_product_ids.index(x.id))
         return suggested_products
+
+    def clear_purchases(self):
+        for id in Product.objects.values_list("id", flat=True):
+            r.delete(self.get_product_key(id))
