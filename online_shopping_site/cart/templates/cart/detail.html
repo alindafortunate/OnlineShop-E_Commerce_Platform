@@ -1,21 +1,21 @@
 {% extends 'shop/base.html' %}
-{% load static %}
+{% load i18n static %}
 {% load thumbnail %}
 
-{% block title %}Your Shopping Cart.{% endblock title %}
+{% block title %}{% translate 'Your Shopping Cart.' %}{% endblock title %}
 
 
 {% block content %}
-<h1>Your Shopping Cart</h1>
+<h1>{% translate 'Your Shopping Cart' %}</h1>
 <table class="cart">
     <thead>
         <tr>
-            <th>Image</th>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Remove</th>
-            <th>Unit Price</th>
-            <th>Price</th>
+            <th>{% translate 'Image' %}</th>
+            <th>{% translate 'Product' %}</th>
+            <th>{% translate 'Quantity' %}</th>
+            <th>{% translate 'Remove'%}</th>
+            <th>{% translate 'Unit Price' %}</th>
+            <th>{% translate 'Price' %}</th>
         </tr>
     </thead>
     <tbody>
@@ -32,13 +32,13 @@
         <td>
         <form action="{% url 'cart:cart_add' product.id %}" method="post">
             {{item.update_quantity_form.quantity}} {{item.update_quantity_form.override}}
-            <input type="submit" value="update">
+            <input type="submit" value="{% translate 'update' %}">
             {% csrf_token %}
         </form>
         </td>
         <td>
             <form action="{% url 'cart:cart_remove' product.id %}" method="post">
-                <input type="submit" value="Remove">
+                <input type="submit" value="{% translate 'Remove' %}">
                 {% csrf_token %}
             </form>
         </td>
@@ -51,14 +51,16 @@
         {% endfor %}
         {% if cart.coupon %}
         <tr class='subtotal'>
-            <td>Subtotal</td>
+            <td>{% translate 'Subtotal' %}</td>
             <td colspan='4'></td>
             <td class='num'>${{cart.get_total_price|floatformat:2}}</td>
         </tr>
         <tr>
             <td>
-            "{{cart.coupon.code}}" coupon
-            ({{cart.coupon.discount}}% off)
+            {% blocktranslate with code=cart.coupon.code discount=cart.coupon.discount  %}
+            "{{code}}" coupon
+            ({{discount}}% off)            
+            {% endblocktranslate  %}
             </td>
             <td colspan='4'></td>
             <td class='num neg'>
@@ -67,7 +69,7 @@
         </tr>
         {% endif %}
         <tr class="total">
-            <td>Total</td>
+            <td>{% translate 'Total' %}</td>
             <td colspan="4"></td>
             <td class="num">
             ${{cart.get_total_price_after_discount|floatformat:2}}
@@ -78,7 +80,7 @@
 </table>
 {% if recommended_products %}
     <div class='recommendations cart'>
-        <h3>People who bought this also bought</h3>
+        <h3>{% translate 'People who bought this also bought' %}</h3>
         {% for p in recommended_products %}
             <div class='item'>
                 <a href="{{p.get_absolute_ulr}}">
@@ -92,15 +94,15 @@
     </div>
 
 {% endif %}
-<p>Apply a coupon:</p>
+<p>{% translate 'Apply a coupon' %}:</p>
 <form action="{% url 'coupons:couponapply' %}" method="post">
-Code:{{coupon_apply_form.code}}
-<input type="submit" value="Apply">
+{% translate 'Code' %}:{{coupon_apply_form.code}}
+<input type="submit" value="{% translate 'Apply' %}">
 {% csrf_token %}
 </form>
 <p class="text-right">
-    <a href="{% url 'shop:produc_list' %}" class="button light">Continue Shopping</a>
-    <a href="{% url 'orders:order_create' %}" class="button">Checkout</a>
+    <a href="{% url 'shop:produc_list' %}" class="button light">{% translate 'Continue Shopping' %}</a>
+    <a href="{% url 'orders:order_create' %}" class="button">{% translate 'Checkout' %}</a>
 
 </p>
     
