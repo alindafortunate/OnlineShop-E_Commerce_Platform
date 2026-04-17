@@ -123,13 +123,14 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Support for internationalisation
 LANGUAGE_CODE = "en"
-LANGUAGE = [
+LANGUAGES = [
     ("en", _("English")),
     ("es", _("Spanish")),
 ]
 LOCALE_PATHS = [
     BASE_DIR / "locale",
 ]
+
 
 TIME_ZONE = "UTC"
 
