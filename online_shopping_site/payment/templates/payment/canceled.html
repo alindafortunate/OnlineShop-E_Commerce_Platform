@@ -1,14 +1,15 @@
 {% extends 'shop/base.html' %}
+{% load i18n %}
 
-{% block title %}Payment Canceled{% endblock title %}
+{% block title %}{% translate 'Payment Canceled' %}{% endblock title %}
 
 
 {% block content %}
-<h1>Your payment was canceled.</h1>
-<p>Your have canceled your payment, you can try again later.</p>
+<h1>{% translate 'Your payment was canceled.' %}</h1>
+<p>{% translate 'Your have canceled your payment, you can try again later.' %}</p>
 <div>
     <p class="text-right">
-    <a href="{% url 'shop:produc_list' %}" class="button light">Continue Shopping</a>
+    <a href="{% url 'shop:produc_list' %}" class="button light">{% translate 'Continue Shopping' %}</a>
 </p>
 
 </div>

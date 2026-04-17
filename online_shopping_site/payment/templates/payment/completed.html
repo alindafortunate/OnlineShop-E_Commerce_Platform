@@ -1,14 +1,15 @@
 {% extends 'shop/base.html' %}
+{% load i18n %}
 
-{% block title %}Payment Successful{% endblock title %}
+{% block title %}{% translate 'Payment Successful' %}{% endblock title %}
 
 
 {% block content %}
-<h1>Your payment was successful</h1>
-<p>Your payment has been successfully processed.</p>
+<h1>{% translate 'Your payment was successful' %}</h1>
+<p>{% translate 'Your payment has been successfully processed.' %}</p>
 
 <p class="text-right">
-    <a href="{% url 'shop:produc_list' %}" class="button light">Continue Shopping</a>
+    <a href="{% url 'shop:produc_list' %}" class="button light">{% translate 'Continue Shopping' %}</a>
 </p>
 
 {% endblock content %}
