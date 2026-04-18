@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-18 13:32+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-04-18 18:28+0000\n"
+"PO-Revision-Date: 2026-04-18 18:35+0000\n"
+"Last-Translator:   <alindafortunate@email.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Translated-Using: django-rosetta 0.10.3\n"
 
 #: orders/models.py:10
 msgid "first name"
@@ -49,13 +49,12 @@ msgid "Checkout"
 msgstr "Compra"
 
 #: orders/templates/orders/order/create.html:11
-#, fuzzy
 #| msgid "Your order"
 msgid "Your Order"
 msgstr "Su compra"
 
 #: orders/templates/orders/order/create.html:20
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "\n"
 #| "              \"%(code)s\" (%(discount)s%% off)\n"
@@ -75,7 +74,6 @@ msgid "Total"
 msgstr "Total"
 
 #: orders/templates/orders/order/create.html:33
-#, fuzzy
 #| msgid "Place order"
 msgid "Place Order"
 msgstr "Realizar compra"
@@ -83,14 +81,13 @@ msgstr "Realizar compra"
 #: orders/templates/orders/order/pdf.html:7
 #: orders/templates/orders/order/pdf.html:10
 msgid "Online Shopping Center"
-msgstr ""
+msgstr "\"Centro de compras en línea"
 
 #: orders/templates/orders/order/pdf.html:17
 msgid "Bill to"
 msgstr "Facturar a"
 
 #: orders/templates/orders/order/pdf.html:24
-#, fuzzy
 #| msgid "Items bought"
 msgid "Items Bought."
 msgstr "Productos comprados"
@@ -116,7 +113,7 @@ msgid "Subtotal"
 msgstr "Subtotal"
 
 #: orders/templates/orders/order/pdf.html:50
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "\n"
 #| "            \"%(code)s\" (%(discount)s%% off)\n"
@@ -135,16 +132,16 @@ msgid "Paid"
 msgstr "Pagado"
 
 #: orders/templates/orders/order/pdf.html:66
-#, fuzzy
 #| msgid "Pending payment"
 msgid "Pending Payment"
 msgstr "Pendiente de pago"
+
+#: orders/urls.py:8
+msgid "create/"
+msgstr "crear/"
 
 #~ msgid "My shop"
 #~ msgstr "Mi tienda"
 
 #~ msgid "Invoice no."
 #~ msgstr "Factura no."
-
-#~ msgid "create/"
-#~ msgstr "crear/"
