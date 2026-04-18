@@ -128,7 +128,7 @@ LANGUAGES = [
     ("es", _("Spanish")),
 ]
 LOCALE_PATHS = [
-    BASE_DIR / "locales",
+    BASE_DIR / "locale",
 ]
 
 TIME_ZONE = "UTC"
