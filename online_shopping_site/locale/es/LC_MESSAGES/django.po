@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-18 12:44+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-04-18 13:27+0000\n"
+"PO-Revision-Date: 2026-04-18 13:20+0000\n"
+"Last-Translator:   <alindafortunate@email.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+"X-Translated-Using: django-rosetta 0.10.3\n"
 
 #: cart/forms.py:9 cart/templates/cart/detail.html:15
 #: payment/templates/payment/process.html:14
@@ -25,14 +26,10 @@ msgid "Quantity"
 msgstr "Cantidad"
 
 #: cart/templates/cart/detail.html:5
-#, fuzzy
-#| msgid "Your shopping cart"
 msgid "Your Shopping Cart."
 msgstr "Su carro"
 
 #: cart/templates/cart/detail.html:9
-#, fuzzy
-#| msgid "Your shopping cart"
 msgid "Your Shopping Cart"
 msgstr "Su carro"
 
@@ -49,8 +46,6 @@ msgid "Remove"
 msgstr "Eliminar"
 
 #: cart/templates/cart/detail.html:17
-#, fuzzy
-#| msgid "Unit price"
 msgid "Unit Price"
 msgstr "Precio unitario"
 
@@ -59,8 +54,6 @@ msgid "Price"
 msgstr "Precio"
 
 #: cart/templates/cart/detail.html:35
-#, fuzzy
-#| msgid "Update"
 msgid "update"
 msgstr "Actualizar"
 
@@ -69,11 +62,7 @@ msgid "Subtotal"
 msgstr "Subtotal"
 
 #: cart/templates/cart/detail.html:60
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "              \"%(code)s\" coupon (%(discount)s%% off)\n"
-#| "            "
+#, python-format
 msgid ""
 "\n"
 "            \"%(code)s\" coupon\n"
@@ -100,7 +89,7 @@ msgstr "Aplicar cupón"
 
 #: cart/templates/cart/detail.html:99
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: cart/templates/cart/detail.html:100
 msgid "Apply"
@@ -109,8 +98,6 @@ msgstr "Aplicar"
 #: cart/templates/cart/detail.html:104
 #: payment/templates/payment/canceled.html:12
 #: payment/templates/payment/completed.html:12
-#, fuzzy
-#| msgid "Continue shopping"
 msgid "Continue Shopping"
 msgstr "Continuar comprando"
 
@@ -131,24 +118,18 @@ msgid "Spanish"
 msgstr "Español"
 
 #: payment/templates/payment/canceled.html:4
-#, fuzzy
-#| msgid "Payment canceled"
 msgid "Payment Canceled"
 msgstr "Pago cancelado"
 
 #: payment/templates/payment/canceled.html:8
-#, fuzzy
-#| msgid "Your payment was successful"
 msgid "Your payment was canceled."
 msgstr "Su pago ha sido realizado"
 
 #: payment/templates/payment/canceled.html:9
 msgid "Your have canceled your payment, you can try again later."
-msgstr ""
+msgstr "Has cancelado tu pago, puedes intentarlo de nuevo más tarde."
 
 #: payment/templates/payment/completed.html:4
-#, fuzzy
-#| msgid "Payment successful"
 msgid "Payment Successful"
 msgstr "Pago realizado"
 
@@ -157,29 +138,19 @@ msgid "Your payment was successful"
 msgstr "Su pago ha sido realizado"
 
 #: payment/templates/payment/completed.html:9
-#, fuzzy
-#| msgid "Your payment has been processed successfully."
 msgid "Your payment has been successfully processed."
 msgstr "Su pago se ha procesado correctamente."
 
 #: payment/templates/payment/process.html:5
-#, fuzzy
-#| msgid "Pay your order"
 msgid "Pay Your Order"
 msgstr "Pague su compra"
 
 #: payment/templates/payment/process.html:8
-#, fuzzy
-#| msgid "Order summary"
 msgid "Order Summary"
 msgstr "Resumen de compra"
 
 #: payment/templates/payment/process.html:47
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "              \"%(code)s\" coupon (%(discount)s%% off)\n"
-#| "            "
+#, python-format
 msgid ""
 "\n"
 "            \"%(code)s\" coupon\n"
@@ -192,31 +163,19 @@ msgstr ""
 "            "
 
 #: payment/templates/payment/process.html:71
-#, fuzzy
-#| msgid "Pay now"
 msgid "Pay Now"
 msgstr "Pagar ahora"
 
 #: shop/templates/shop/base.html:8 shop/templates/shop/base.html:14
 msgid "My Shop"
-msgstr ""
+msgstr "Mi Tienda"
 
 #: shop/templates/shop/base.html:22
-#, fuzzy
-#| msgid "Your cart"
 msgid "Your cart has"
 msgstr "Su carro"
 
 #: shop/templates/shop/base.html:23
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "                %(items)s item, $%(total)s\n"
-#| "              "
-#| msgid_plural ""
-#| "\n"
-#| "                %(items)s items, $%(total)s\n"
-#| "              "
+#, python-format
 msgid ""
 "\n"
 "               %(items)s item, $%(total)s\n"
@@ -239,8 +198,6 @@ msgid "Your cart is empty."
 msgstr "Su carro está vacío."
 
 #: shop/templates/shop/products/detail.html:19
-#, fuzzy
-#| msgid "Add to cart"
 msgid "Add to Cart"
 msgstr "Añadir al carro"
 
@@ -257,15 +214,10 @@ msgid "Products"
 msgstr "Productos"
 
 #, fuzzy
-#~| msgid "Pay your order"
 #~ msgid "Your Order"
 #~ msgstr "Pague su compra"
 
 #, fuzzy, python-format
-#~| msgid ""
-#~| "\n"
-#~| "              \"%(code)s\" (%(discount)s%% off)\n"
-#~| "            "
 #~ msgid ""
 #~ "\n"
 #~ "            \"%(code)s\" (%(discount)s%% off)\n"
@@ -276,20 +228,14 @@ msgstr "Productos"
 #~ "            "
 
 #, fuzzy
-#~| msgid "Pay your order"
 #~ msgid "Place Order"
 #~ msgstr "Pague su compra"
 
 #, fuzzy
-#~| msgid "Continue shopping"
 #~ msgid "Online Shopping Center"
 #~ msgstr "Continuar comprando"
 
 #, fuzzy, python-format
-#~| msgid ""
-#~| "\n"
-#~| "              \"%(code)s\" (%(discount)s%% off)\n"
-#~| "            "
 #~ msgid ""
 #~ "\n"
 #~ "    \"%(code)s\" coupon (%(discount)s%% off)\n"
