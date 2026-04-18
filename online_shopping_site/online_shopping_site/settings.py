@@ -43,13 +43,13 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "rosetta",
     "cart.apps.CartConfig",
     "orders.apps.OrdersConfig",
     "payment.apps.PaymentConfig",
     "shop.apps.ShopConfig",
     "easy_thumbnails",
     "coupons.apps.CouponsConfig",
-    "rosetta",
 ]
 
 MIDDLEWARE = [
@@ -128,9 +128,8 @@ LANGUAGES = [
     ("es", _("Spanish")),
 ]
 LOCALE_PATHS = [
-    BASE_DIR / "locale",
+    BASE_DIR / "locales",
 ]
-
 
 TIME_ZONE = "UTC"
 
