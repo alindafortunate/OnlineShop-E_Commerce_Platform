@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-18 18:28+0000\n"
-"PO-Revision-Date: 2026-04-18 18:33+0000\n"
+"POT-Creation-Date: 2026-04-19 15:37+0000\n"
+"PO-Revision-Date: 2026-04-19 15:39+0000\n"
 "Last-Translator:   <alindafortunate@email.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -129,7 +129,6 @@ msgid "orders/"
 msgstr "pedidos/"
 
 #: online_shopping_site/urls.py:30
-#| msgid "payment/"
 msgid "payments/"
 msgstr "pago/"
 
@@ -202,11 +201,15 @@ msgstr "cancelado/"
 msgid "My Shop"
 msgstr "Mi Tienda"
 
-#: shop/templates/shop/base.html:22
+#: shop/templates/shop/base.html:19
+msgid "Language"
+msgstr "Idioma"
+
+#: shop/templates/shop/base.html:39
 msgid "Your cart has"
 msgstr "Su carro"
 
-#: shop/templates/shop/base.html:23
+#: shop/templates/shop/base.html:40
 #, python-format
 msgid ""
 "\n"
@@ -225,7 +228,7 @@ msgstr[1] ""
 "                %(items)s productos, $%(total)s\n"
 "              "
 
-#: shop/templates/shop/base.html:29
+#: shop/templates/shop/base.html:46
 msgid "Your cart is empty."
 msgstr "Su carro está vacío."
 
@@ -241,23 +244,37 @@ msgstr "Categorías"
 msgid "All"
 msgstr "Todos"
 
-#: shop/templates/shop/products/list.html:24
+#: shop/templates/shop/products/list.html:25
+#, python-format
+msgid " %(category_name)s"
+msgstr "%(category_name)s"
+
+#: shop/templates/shop/products/list.html:28
 msgid "Products"
 msgstr "Productos"
 
-#, fuzzy
-#~ msgid "Your Order"
-#~ msgstr "Pague su compra"
-
-#, fuzzy, python-format
+#, python-format
 #~ msgid ""
 #~ "\n"
-#~ "            \"%(code)s\" (%(discount)s%% off)\n"
+#~ "                    %(product_name)s\n"
+#~ "                    "
+#~ msgstr ""
+#~ "\n"
+#~ "%(product_name)s               "
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "            %({{category)s}}\n"
 #~ "            "
 #~ msgstr ""
 #~ "\n"
 #~ "              \"%(code)s\" (%(discount)s%% descuento)\n"
 #~ "            "
+
+#, fuzzy
+#~ msgid "Your Order"
+#~ msgstr "Pague su compra"
 
 #, fuzzy
 #~ msgid "Place Order"
@@ -285,6 +302,3 @@ msgstr "Productos"
 
 #~ msgid "My shop"
 #~ msgstr "Mi tienda"
-
-#~ msgid "Language"
-#~ msgstr "Idioma"
