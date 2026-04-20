@@ -1,2304 +1,3518 @@
 [
 {
-  "model": "admin.logentry",
-  "pk": 1,
-  "fields": {
-    "action_time": "2025-09-24T09:50:15.820Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "Tea",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 2,
-  "fields": {
-    "action_time": "2025-09-24T09:51:10.099Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Green Tea",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 3,
-  "fields": {
-    "action_time": "2025-09-24T18:19:03.481Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "2",
-    "object_repr": "Electronics",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 4,
-  "fields": {
-    "action_time": "2025-09-24T18:19:43.833Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Infinix",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 5,
-  "fields": {
-    "action_time": "2025-09-24T18:44:33.002Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Infinix",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 6,
-  "fields": {
-    "action_time": "2025-09-24T18:45:58.531Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Infinix",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 7,
-  "fields": {
-    "action_time": "2025-09-25T09:50:08.924Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "3",
-    "object_repr": "Books",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2025-09-25T09:50:56.558Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Django5-By-Example",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2025-09-25T09:51:45.152Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "4",
-    "object_repr": "Java Made Easy",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2025-09-25T09:53:23.489Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "5",
-    "object_repr": "Python For Beginners",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2025-09-25T09:53:35.510Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "4",
-    "object_repr": "Fruits",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2025-09-25T09:54:24.556Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "6",
-    "object_repr": "Mangoes",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2025-09-25T09:55:07.643Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "7",
-    "object_repr": "Oranges",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2025-09-25T09:56:10.567Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "8",
-    "object_repr": "Apples",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 15,
-  "fields": {
-    "action_time": "2025-09-25T09:58:01.847Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "9",
-    "object_repr": "Explore The Unkown",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 16,
-  "fields": {
-    "action_time": "2025-10-16T07:29:22.734Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "6",
-    "object_repr": "Order 6",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 17,
-  "fields": {
-    "action_time": "2025-10-16T07:29:22.735Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "5",
-    "object_repr": "Order 5",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 18,
-  "fields": {
-    "action_time": "2025-10-16T07:29:22.735Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "4",
-    "object_repr": "Order 4",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 19,
-  "fields": {
-    "action_time": "2025-10-16T07:29:22.735Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "3",
-    "object_repr": "Order 3",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 20,
-  "fields": {
-    "action_time": "2025-10-17T14:27:20.706Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "8",
-    "object_repr": "Apples",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 21,
-  "fields": {
-    "action_time": "2025-10-17T14:27:33.573Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Django5-By-Example",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 22,
-  "fields": {
-    "action_time": "2025-10-17T14:31:43.354Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "9",
-    "object_repr": "Explore The Unkown",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 23,
-  "fields": {
-    "action_time": "2025-10-17T14:33:13.618Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "9",
-    "object_repr": "Explore The Unkown",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 24,
-  "fields": {
-    "action_time": "2025-10-17T14:34:24.578Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Green Tea",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 25,
-  "fields": {
-    "action_time": "2025-10-17T16:37:08.465Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Infinix",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 26,
-  "fields": {
-    "action_time": "2025-10-17T16:39:24.490Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Django5-By-Example",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 27,
-  "fields": {
-    "action_time": "2025-10-17T16:40:49.342Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Django5-By-Example",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 28,
-  "fields": {
-    "action_time": "2025-10-17T16:49:45.115Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "4",
-    "object_repr": "Java Made Easy",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 29,
-  "fields": {
-    "action_time": "2025-10-17T16:51:20.136Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "6",
-    "object_repr": "Mangoes",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 30,
-  "fields": {
-    "action_time": "2025-10-17T16:52:27.717Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "7",
-    "object_repr": "Oranges",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 31,
-  "fields": {
-    "action_time": "2025-10-17T16:53:49.633Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "5",
-    "object_repr": "Python For Beginners",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 32,
-  "fields": {
-    "action_time": "2025-10-17T17:19:28.370Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "9",
-    "object_repr": "Explore The Unkown",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 33,
-  "fields": {
-    "action_time": "2025-10-17T17:21:33.765Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "9",
-    "object_repr": "Explore The Unkown",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 34,
-  "fields": {
-    "action_time": "2025-10-17T17:22:46.137Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "9",
-    "object_repr": "Explore The Unkown",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 35,
-  "fields": {
-    "action_time": "2025-10-17T17:24:29.730Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "9",
-    "object_repr": "Explore The Unkown",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 36,
-  "fields": {
-    "action_time": "2025-10-17T17:25:33.964Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "9",
-    "object_repr": "Explore The Unkown",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 37,
-  "fields": {
-    "action_time": "2025-10-17T17:33:17.188Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "9",
-    "object_repr": "Explore The Unkown",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 38,
-  "fields": {
-    "action_time": "2025-10-17T17:33:50.707Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "5",
-    "object_repr": "Python For Beginners",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 39,
-  "fields": {
-    "action_time": "2025-10-17T17:36:07.771Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Green Tea",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 40,
-  "fields": {
-    "action_time": "2025-10-17T17:37:31.288Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Green Tea",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 41,
-  "fields": {
-    "action_time": "2025-10-17T17:39:04.263Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Green Tea",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 42,
-  "fields": {
-    "action_time": "2025-10-17T17:42:05.734Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Green Tea",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 43,
-  "fields": {
-    "action_time": "2025-10-17T17:43:58.609Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Green Tea",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 44,
-  "fields": {
-    "action_time": "2025-10-17T17:45:27.423Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Django5-By-Example",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 45,
-  "fields": {
-    "action_time": "2025-10-17T17:46:59.490Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Django5-By-Example",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 46,
-  "fields": {
-    "action_time": "2025-10-17T17:48:56.447Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Django-For-E-commerce",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Category\", \"Image\", \"Price\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 47,
-  "fields": {
-    "action_time": "2025-10-17T17:52:15.123Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "10",
-    "object_repr": "Green Tea",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 48,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.434Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "28",
-    "object_repr": "Order 28",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 49,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.434Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "27",
-    "object_repr": "Order 27",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 50,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.434Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "26",
-    "object_repr": "Order 26",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 51,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.434Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "25",
-    "object_repr": "Order 25",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 52,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.434Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "24",
-    "object_repr": "Order 24",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 53,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.435Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "23",
-    "object_repr": "Order 23",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 54,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.435Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "22",
-    "object_repr": "Order 22",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 55,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.435Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "21",
-    "object_repr": "Order 21",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 56,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.435Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "20",
-    "object_repr": "Order 20",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 57,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.435Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "19",
-    "object_repr": "Order 19",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 58,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.435Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "18",
-    "object_repr": "Order 18",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 59,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.435Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "17",
-    "object_repr": "Order 17",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 60,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.435Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "16",
-    "object_repr": "Order 16",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 61,
-  "fields": {
-    "action_time": "2026-03-03T09:16:25.435Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "15",
-    "object_repr": "Order 15",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 62,
-  "fields": {
-    "action_time": "2026-03-03T09:25:13.821Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "30",
-    "object_repr": "Order 30",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 63,
-  "fields": {
-    "action_time": "2026-03-10T12:08:36.893Z",
-    "user": 2,
-    "content_type": 7,
-    "object_id": "11",
-    "object_repr": "Order 11",
-    "action_flag": 2,
-    "change_message": "[]"
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$pHQdcBw6oGTnwAxVF0rqVl$tjzP8yJTd4YWr7BBBrA+dGTG/KjIhHi+wkZpFKSK9mw=",
-    "last_login": "2025-09-24T09:49:18.246Z",
-    "is_superuser": true,
-    "username": "alindafortunate",
-    "first_name": "",
-    "last_name": "",
-    "email": "alindafortunate@email.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2025-09-24T09:48:20.980Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 2,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$KycRXXo8iubp3FWa7RSsqE$jDzBPqGanlazwAgPkQhLkfDpcc8xNS0a333mXVOa1S4=",
-    "last_login": "2026-03-03T08:25:25.229Z",
-    "is_superuser": true,
-    "username": "alindafortunate@email.com",
-    "first_name": "",
-    "last_name": "",
-    "email": "alindafortunate@email.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2026-03-03T08:24:35.188Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "4mp84sfidq8m8omhnj56bik0gvkq4tws",
-  "fields": {
-    "session_data": ".eJxVjDsOgzAQBe_iOrLsxR9CmZ4zoPWuCSQRlmyoEHcPSG5oZ-a9XaTMMQ8zi65RDzHgtk7DVioSIG4sIH3jcgn-4PJOktKy5jnIK5HVFtknjr9XbW8HE5bpXLvYOCbrnOYmMI8WW4XkAcmCtdC23ozaGOM9BByR2XOAqIx7anIW9HlKmFfR7cfxB1-OP24:1vzxsy:01aEOBNawGSa6k9EeMvX38lVej_AokFsTBaLES9ViUk",
-    "expire_date": "2026-03-24T14:16:36.150Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "l80nfhmpkleb23il2bgsl6mw2pripkkz",
-  "fields": {
-    "session_data": ".eJxVjEEOgyAQRe_CuiEMMIguu-8ZyDhAtW00EVwZ715NXLTb_95_mwi01iGsJS1hjKITIG6_W0_8TtMJ4oum5yx5nuoy9vJU5EWLfMwxfe6X-xcYqAzH2xA26MAixpa8StRo3bgIpFAhgzXUsmebwaDXPrvolVMJsmktg9fuiDItVXTbvn8B41c5zQ:1v9odK:FgqFhoq_xvyMcM5B33TJMUFzW_3Irlm3dqPkTr6LNP8",
-    "expire_date": "2025-10-31T17:52:54.559Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 1,
-  "fields": {
-    "first_name": "Fortunate",
-    "last_name": "Alinda",
-    "email": "alindafortunate@email.com",
-    "address": "Kagadi",
-    "postal_code": "Kamuyange.",
-    "city": "Hoima",
-    "paid": false,
-    "created": "2025-10-13T19:01:30.535Z",
-    "updated": "2025-10-13T19:01:30.535Z",
-    "stripe_id": ""
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 2,
-  "fields": {
-    "first_name": "Alinda",
-    "last_name": "Fortunate",
-    "email": "alindafortunate5@gmail.com",
-    "address": "Kagadi, Gulu",
-    "postal_code": "Kamuyange.",
-    "city": "Hoima",
-    "paid": false,
-    "created": "2025-10-16T07:00:00.303Z",
-    "updated": "2025-10-16T07:00:00.303Z",
-    "stripe_id": ""
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 7,
-  "fields": {
-    "first_name": "Lucky",
-    "last_name": "Alinda",
-    "email": "alindafortunate5@gmail.com",
-    "address": "Kagadi",
-    "postal_code": "Kyabasale",
-    "city": "Hoima",
-    "paid": false,
-    "created": "2025-10-16T07:47:11.062Z",
-    "updated": "2025-10-16T07:47:11.062Z",
-    "stripe_id": ""
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 8,
-  "fields": {
-    "first_name": "Alinda",
-    "last_name": "Fortunate",
-    "email": "alindafortunate5@gmail.com",
-    "address": "Kagadi, Gulu",
-    "postal_code": "Kamuyange.",
-    "city": "Hoima",
-    "paid": false,
-    "created": "2025-10-17T09:38:23.872Z",
-    "updated": "2025-10-17T09:38:23.872Z",
-    "stripe_id": ""
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 9,
-  "fields": {
-    "first_name": "Alinda",
-    "last_name": "Fortunate",
-    "email": "alindafortunate5@gmail.com",
-    "address": "Kagadi, Gulu",
-    "postal_code": "Kamuyange.",
-    "city": "Hoima",
-    "paid": false,
-    "created": "2025-10-17T09:40:34.624Z",
-    "updated": "2025-10-17T09:40:34.624Z",
-    "stripe_id": ""
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 10,
-  "fields": {
-    "first_name": "Alinda",
-    "last_name": "Fortunate",
-    "email": "alindafortunate5@gmail.com",
-    "address": "Kagadi, Gulu",
-    "postal_code": "Kamuyange.",
-    "city": "Hoima",
-    "paid": false,
-    "created": "2025-10-17T09:46:08.966Z",
-    "updated": "2025-10-17T09:46:08.966Z",
-    "stripe_id": ""
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 11,
-  "fields": {
-    "first_name": "Alinda",
-    "last_name": "Fortunate",
-    "email": "alindafortunatecode@gmail.com",
-    "address": "Kagadi, Gulu",
-    "postal_code": "Kamuyange.",
-    "city": "Hoima",
-    "paid": false,
-    "created": "2025-10-17T09:49:36.788Z",
-    "updated": "2026-03-10T12:08:36.892Z",
-    "stripe_id": ""
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 12,
-  "fields": {
-    "first_name": "Alinda",
-    "last_name": "Fortunate",
-    "email": "alindafortunatecode@gmail.com",
-    "address": "Kagadi, Gulu",
-    "postal_code": "Kamuyange.",
-    "city": "Hoima",
-    "paid": false,
-    "created": "2025-10-17T09:54:43.996Z",
-    "updated": "2025-10-17T09:54:43.996Z",
-    "stripe_id": ""
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 13,
-  "fields": {
-    "first_name": "Lucky",
-    "last_name": "Alinda",
-    "email": "alindafortunatecode@gmail.com",
-    "address": "Kagadi",
-    "postal_code": "Kamuyange.",
-    "city": "Hoima",
-    "paid": false,
-    "created": "2025-10-17T09:55:52.898Z",
-    "updated": "2025-10-17T09:55:52.898Z",
-    "stripe_id": ""
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 14,
-  "fields": {
-    "first_name": "Alinda",
-    "last_name": "Fortunate",
-    "email": "alindafortunatecode@gmail.com",
-    "address": "Kagadi, Gulu",
-    "postal_code": "Kamuyange.",
-    "city": "Hoima",
-    "paid": false,
-    "created": "2025-10-17T10:01:38.904Z",
-    "updated": "2025-10-17T10:01:38.904Z",
-    "stripe_id": ""
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 29,
-  "fields": {
-    "first_name": "Lucky",
-    "last_name": "Alinda",
-    "email": "alindafortunate5@gmail.com",
-    "address": "Kagadi",
-    "postal_code": "Kyabasale",
-    "city": "Hoima",
-    "paid": true,
-    "created": "2026-03-03T09:10:51.485Z",
-    "updated": "2026-03-03T09:11:24.324Z",
-    "stripe_id": "pi_3T6oz6DV81U2CVvF0wu0vAs0"
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 1,
-  "fields": {
-    "order": 1,
-    "product": 2,
-    "price": "100.00",
-    "quantity": 4
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 2,
-  "fields": {
-    "order": 1,
-    "product": 8,
-    "price": "3.00",
-    "quantity": 3
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 4,
-  "fields": {
-    "order": 2,
-    "product": 3,
-    "price": "50.00",
-    "quantity": 1
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 5,
-  "fields": {
-    "order": 7,
-    "product": 8,
-    "price": "3.00",
-    "quantity": 1
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 6,
-  "fields": {
-    "order": 8,
-    "product": 8,
-    "price": "3.00",
-    "quantity": 1
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 7,
-  "fields": {
-    "order": 9,
-    "product": 3,
-    "price": "50.00",
-    "quantity": 1
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 8,
-  "fields": {
-    "order": 10,
-    "product": 3,
-    "price": "50.00",
-    "quantity": 1
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 9,
-  "fields": {
-    "order": 11,
-    "product": 2,
-    "price": "100.00",
-    "quantity": 1
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 10,
-  "fields": {
-    "order": 12,
-    "product": 4,
-    "price": "50.00",
-    "quantity": 1
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 11,
-  "fields": {
-    "order": 13,
-    "product": 1,
-    "price": "3.00",
-    "quantity": 1
-  }
-},
-{
-  "model": "orders.orderitem",
-  "pk": 27,
-  "fields": {
-    "order": 29,
-    "product": 8,
-    "price": "3.00",
-    "quantity": 1
-  }
-},
-{
-  "model": "shop.category",
-  "pk": 1,
-  "fields": {
-    "name": "Tea",
-    "slug": "tea"
-  }
-},
-{
-  "model": "shop.category",
-  "pk": 2,
-  "fields": {
-    "name": "Electronics",
-    "slug": "electronics"
-  }
-},
-{
-  "model": "shop.category",
-  "pk": 3,
-  "fields": {
-    "name": "Books",
-    "slug": "books"
-  }
-},
-{
-  "model": "shop.category",
-  "pk": 4,
-  "fields": {
-    "name": "Fruits",
-    "slug": "fruits"
-  }
-},
-{
-  "model": "shop.product",
-  "pk": 1,
-  "fields": {
-    "name": "Django-For-E-commerce",
-    "slug": "django-for-ecommerce",
-    "category": 3,
-    "image": "products/2025/10/17/The_unkown_on_Django_0hcBdMW.jpg",
-    "description": "This tea is very healthy for your body.",
-    "price": "50.00",
-    "created": "2025-09-24T09:51:10.033Z",
-    "updated": "2025-10-17T17:48:56.446Z",
-    "available": true
-  }
-},
-{
-  "model": "shop.product",
-  "pk": 2,
-  "fields": {
-    "name": "Infinix",
-    "slug": "infinix",
-    "category": 2,
-    "image": "products/2025/10/17/Infinix_phone.jpg",
-    "description": "This a good and quality phone.",
-    "price": "100.00",
-    "created": "2025-09-24T18:19:43.784Z",
-    "updated": "2025-10-17T16:37:08.464Z",
-    "available": true
-  }
-},
-{
-  "model": "shop.product",
-  "pk": 3,
-  "fields": {
-    "name": "Django5-By-Example",
-    "slug": "django5-by-example",
-    "category": 3,
-    "image": "products/2025/10/17/Django5_By_Example_fNmbPsj.jpg",
-    "description": "It's a good book for programming.",
-    "price": "50.00",
-    "created": "2025-09-25T09:50:56.558Z",
-    "updated": "2025-10-17T17:46:59.489Z",
-    "available": true
-  }
-},
-{
-  "model": "shop.product",
-  "pk": 4,
-  "fields": {
-    "name": "Java Made Easy",
-    "slug": "java-made-easy",
-    "category": 3,
-    "image": "products/2025/10/17/Java_Book.jpg",
-    "description": "You will learn Java and actually love it.",
-    "price": "50.00",
-    "created": "2025-09-25T09:51:45.152Z",
-    "updated": "2025-10-17T16:49:45.113Z",
-    "available": true
-  }
-},
-{
-  "model": "shop.product",
-  "pk": 6,
-  "fields": {
-    "name": "Mangoes",
-    "slug": "mangoes",
-    "category": 4,
-    "image": "products/2025/10/17/Mangoes.jpg",
-    "description": "A mango is just a good and nice fruit for you.",
-    "price": "3.00",
-    "created": "2025-09-25T09:54:24.555Z",
-    "updated": "2025-10-17T16:51:20.133Z",
-    "available": true
-  }
-},
-{
-  "model": "shop.product",
-  "pk": 7,
-  "fields": {
-    "name": "Oranges",
-    "slug": "oranges",
-    "category": 4,
-    "image": "products/2025/10/17/Oranges.jpg",
-    "description": "Just come and enjoy your oranges, you will thank me later.",
-    "price": "3.00",
-    "created": "2025-09-25T09:55:07.641Z",
-    "updated": "2025-10-17T16:52:27.715Z",
-    "available": true
-  }
-},
-{
-  "model": "shop.product",
-  "pk": 8,
-  "fields": {
-    "name": "Apples",
-    "slug": "apples",
-    "category": 4,
-    "image": "products/2025/10/17/Apples.jpg",
-    "description": "An apple is such an amazing fruit for you, enjoy it.",
-    "price": "3.00",
-    "created": "2025-09-25T09:56:10.566Z",
-    "updated": "2025-10-17T14:27:20.704Z",
-    "available": true
-  }
-},
-{
-  "model": "shop.product",
-  "pk": 10,
-  "fields": {
-    "name": "Green Tea",
-    "slug": "green-tea",
-    "category": 1,
-    "image": "products/2025/10/17/Harvard_Green_Tea_xl4CU8T.jpg",
-    "description": "Some tea for you.",
-    "price": "10.00",
-    "created": "2025-10-17T17:52:15.122Z",
-    "updated": "2025-10-17T17:52:15.122Z",
-    "available": true
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 1,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/09/24/infinix_phone1.jpg",
-    "modified": "2025-10-17T14:30:00.073Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 2,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Apples.jpg",
-    "modified": "2025-10-17T17:46:13.211Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 3,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django5_By_Example.jpg",
-    "modified": "2025-10-17T14:29:45.282Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 4,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Explore_the_unknown.jpg",
-    "modified": "2025-10-17T14:31:47.173Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 5,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Explore_the_unknown002.jpg",
-    "modified": "2025-10-17T16:48:34.558Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 6,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg",
-    "modified": "2025-10-17T16:48:34.791Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 7,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Infinix_phone.jpg",
-    "modified": "2026-03-03T08:43:31.349Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 8,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django_Book.jpg",
-    "modified": "2025-10-17T16:39:27.558Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 9,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Pro_Django.jpg",
-    "modified": "2025-10-17T16:48:34.316Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 10,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Java_Book.jpg",
-    "modified": "2025-10-17T17:50:34.078Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 11,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Mangoes.jpg",
-    "modified": "2025-10-17T17:46:14.512Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 12,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Oranges.jpg",
-    "modified": "2025-10-17T17:46:14.735Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 13,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Python_Book.jpg",
-    "modified": "2025-10-17T16:53:53.166Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 14,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/The_unkown.jpg",
-    "modified": "2025-10-17T17:19:31.158Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 15,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Unkown2.jpg",
-    "modified": "2025-10-17T17:21:37.012Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 16,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/The_unkown_ibvHaio.jpg",
-    "modified": "2025-10-17T17:22:49.238Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 17,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Unkown3.jpg",
-    "modified": "2025-10-17T17:24:32.709Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 18,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/The_unkown_on_Django.jpg",
-    "modified": "2025-10-17T17:25:59.687Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 19,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea1.jpg",
-    "modified": "2025-10-17T17:36:10.067Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 20,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/green_tea3.jpg",
-    "modified": "2025-10-17T17:37:33.858Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 21,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Harvard_Green_Tea.jpg",
-    "modified": "2025-10-17T17:39:07.985Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 22,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Harvard_Green_Tea_208x209.jpg",
-    "modified": "2025-10-17T17:42:08.492Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 23,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Harvard_Green_Tea_1_224x2253.jpg",
-    "modified": "2025-10-17T17:46:13.657Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 24,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django5_By_Example_224x276.jpg",
-    "modified": "2025-10-17T17:46:13.435Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 25,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django5_By_Example_fNmbPsj.jpg",
-    "modified": "2025-10-17T17:47:02.161Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 26,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/The_unkown_on_Django_0hcBdMW.jpg",
-    "modified": "2025-10-17T17:48:59.441Z"
-  }
-},
-{
-  "model": "easy_thumbnails.source",
-  "pk": 27,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Harvard_Green_Tea_xl4CU8T.jpg",
-    "modified": "2025-10-17T17:52:19.597Z"
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 1,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/09/24/infinix_phone1.jpg.300x300_q85.jpg",
-    "modified": "2025-10-17T14:20:02.416Z",
-    "source": 1
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 2,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Apples.jpg.300x300_q85.jpg",
-    "modified": "2025-10-17T14:27:40.555Z",
-    "source": 2
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 3,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django5_By_Example.jpg.300x300_q85.jpg",
-    "modified": "2025-10-17T14:27:40.648Z",
-    "source": 3
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 4,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django5_By_Example.jpg.800x800_q85.jpg",
-    "modified": "2025-10-17T14:28:57.786Z",
-    "source": 3
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 5,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django5_By_Example.jpg.600x600_q85.jpg",
-    "modified": "2025-10-17T14:29:45.432Z",
-    "source": 3
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 6,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Apples.jpg.600x600_q85.jpg",
-    "modified": "2025-10-17T14:29:59.965Z",
-    "source": 2
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 7,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/09/24/infinix_phone1.jpg.600x600_q85.jpg",
-    "modified": "2025-10-17T14:30:00.176Z",
-    "source": 1
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 8,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Explore_the_unknown.jpg.600x600_q85.jpg",
-    "modified": "2025-10-17T14:31:47.346Z",
-    "source": 4
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 9,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Explore_the_unknown002.jpg.600x600_q85.jpg",
-    "modified": "2025-10-17T14:33:16.615Z",
-    "source": 5
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 10,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.600x600_q85.jpg",
-    "modified": "2025-10-17T14:34:27.972Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 11,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.500x500_q85.jpg",
-    "modified": "2025-10-17T14:35:32.808Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 12,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.400x400_q85.jpg",
-    "modified": "2025-10-17T14:35:48.297Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 13,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.300x300_q85.jpg",
-    "modified": "2025-10-17T15:24:35.044Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 14,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.200x200_q85.jpg",
-    "modified": "2025-10-17T15:24:53.867Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 15,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.100x100_q85.jpg",
-    "modified": "2025-10-17T15:37:49.877Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 16,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.1000x1000_q85.jpg",
-    "modified": "2025-10-17T15:38:21.967Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 17,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Explore_the_unknown002.jpg.1000x1000_q85.jpg",
-    "modified": "2025-10-17T16:00:46.202Z",
-    "source": 5
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 18,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Infinix_phone.jpg.600x600_q85.jpg",
-    "modified": "2025-10-17T16:37:15.039Z",
-    "source": 7
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 19,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django_Book.jpg.600x600_q85.jpg",
-    "modified": "2025-10-17T16:39:27.724Z",
-    "source": 8
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 20,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Pro_Django.jpg.600x600_q85.jpg",
-    "modified": "2025-10-17T16:40:52.968Z",
-    "source": 9
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 21,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Apples.jpg.600x600_q85_crop-smart.jpg",
-    "modified": "2025-10-17T16:41:38.689Z",
-    "source": 2
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 22,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Pro_Django.jpg.600x600_q85_crop-smart.jpg",
-    "modified": "2025-10-17T16:41:38.900Z",
-    "source": 9
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 23,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Explore_the_unknown002.jpg.600x600_q85_crop-smart.jpg",
-    "modified": "2025-10-17T16:41:39.224Z",
-    "source": 5
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 24,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.600x600_q85_crop-smart.jpg",
-    "modified": "2025-10-17T16:41:39.455Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 25,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Infinix_phone.jpg.600x600_q85_crop-smart.jpg",
-    "modified": "2025-10-17T16:41:39.685Z",
-    "source": 7
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 26,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Apples.jpg.600x600_q85_crop-center.jpg",
-    "modified": "2025-10-17T16:47:25.492Z",
-    "source": 2
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 27,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Pro_Django.jpg.600x600_q85_crop-center.jpg",
-    "modified": "2025-10-17T16:47:25.725Z",
-    "source": 9
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 28,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Explore_the_unknown002.jpg.600x600_q85_crop-center.jpg",
-    "modified": "2025-10-17T16:47:26.085Z",
-    "source": 5
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 29,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.600x600_q85_crop-center.jpg",
-    "modified": "2025-10-17T16:47:26.468Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 30,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Infinix_phone.jpg.600x600_q85_crop-center.jpg",
-    "modified": "2025-10-17T16:47:26.724Z",
-    "source": 7
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 31,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Apples.jpg.400x300_q85_crop-center.jpg",
-    "modified": "2025-10-17T16:48:06.252Z",
-    "source": 2
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 32,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Pro_Django.jpg.400x300_q85_crop-center.jpg",
-    "modified": "2025-10-17T16:48:06.471Z",
-    "source": 9
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 33,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Explore_the_unknown002.jpg.400x300_q85_crop-center.jpg",
-    "modified": "2025-10-17T16:48:06.748Z",
-    "source": 5
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 34,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.400x300_q85_crop-center.jpg",
-    "modified": "2025-10-17T16:48:07.206Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 35,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Infinix_phone.jpg.400x300_q85_crop-center.jpg",
-    "modified": "2025-10-17T16:48:07.424Z",
-    "source": 7
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 36,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Apples.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T16:48:34.186Z",
-    "source": 2
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 37,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Pro_Django.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T16:48:34.439Z",
-    "source": 9
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 38,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Explore_the_unknown002.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T16:48:34.662Z",
-    "source": 5
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 39,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T16:48:34.929Z",
-    "source": 6
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 40,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Infinix_phone.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T16:48:35.184Z",
-    "source": 7
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 41,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Java_Book.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T16:49:52.929Z",
-    "source": 10
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 42,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Mangoes.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T16:51:24.100Z",
-    "source": 11
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 43,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Oranges.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T16:52:31.725Z",
-    "source": 12
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 44,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Python_Book.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T16:53:53.297Z",
-    "source": 13
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 45,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/The_unkown.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:19:31.267Z",
-    "source": 14
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 46,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Unkown2.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:21:37.144Z",
-    "source": 15
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 47,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/The_unkown_ibvHaio.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:22:49.446Z",
-    "source": 16
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 48,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Unkown3.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:24:32.886Z",
-    "source": 17
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 49,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/The_unkown_on_Django.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:25:37.486Z",
-    "source": 18
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 50,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/The_unkown_on_Django.jpg.1000x1000_q85.jpg",
-    "modified": "2025-10-17T17:25:59.824Z",
-    "source": 18
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 51,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Green_Tea1.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:36:10.231Z",
-    "source": 19
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 52,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/green_tea3.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:37:34.020Z",
-    "source": 20
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 53,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Harvard_Green_Tea.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:39:08.087Z",
-    "source": 21
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 54,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Harvard_Green_Tea_208x209.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:42:08.630Z",
-    "source": 22
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 55,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Harvard_Green_Tea_1_224x2253.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:44:01.779Z",
-    "source": 23
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 56,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django5_By_Example_224x276.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:45:30.537Z",
-    "source": 24
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 57,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django5_By_Example_224x276.jpg.400x300_q85_crop-center.jpg",
-    "modified": "2025-10-17T17:46:02.071Z",
-    "source": 24
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 58,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Harvard_Green_Tea_1_224x2253.jpg.400x300_q85_crop-center.jpg",
-    "modified": "2025-10-17T17:46:02.276Z",
-    "source": 23
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 59,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Java_Book.jpg.400x300_q85_crop-center.jpg",
-    "modified": "2025-10-17T17:46:02.519Z",
-    "source": 10
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 60,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Mangoes.jpg.400x300_q85_crop-center.jpg",
-    "modified": "2025-10-17T17:46:02.809Z",
-    "source": 11
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 61,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Oranges.jpg.400x300_q85_crop-center.jpg",
-    "modified": "2025-10-17T17:46:03.040Z",
-    "source": 12
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 62,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Apples.jpg.400x300_q85.jpg",
-    "modified": "2025-10-17T17:46:13.327Z",
-    "source": 2
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 63,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django5_By_Example_224x276.jpg.400x300_q85.jpg",
-    "modified": "2025-10-17T17:46:13.535Z",
-    "source": 24
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 64,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Harvard_Green_Tea_1_224x2253.jpg.400x300_q85.jpg",
-    "modified": "2025-10-17T17:46:13.745Z",
-    "source": 23
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 65,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Infinix_phone.jpg.400x300_q85.jpg",
-    "modified": "2025-10-17T17:46:14.173Z",
-    "source": 7
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 66,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Java_Book.jpg.400x300_q85.jpg",
-    "modified": "2025-10-17T17:46:14.416Z",
-    "source": 10
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 67,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Mangoes.jpg.400x300_q85.jpg",
-    "modified": "2025-10-17T17:46:14.602Z",
-    "source": 11
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 68,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Oranges.jpg.400x300_q85.jpg",
-    "modified": "2025-10-17T17:46:14.880Z",
-    "source": 12
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 69,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Django5_By_Example_fNmbPsj.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:47:02.323Z",
-    "source": 25
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 70,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/The_unkown_on_Django_0hcBdMW.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:48:59.618Z",
-    "source": 26
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 71,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Java_Book.jpg.1000x1000_q85.jpg",
-    "modified": "2025-10-17T17:49:50.221Z",
-    "source": 10
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 72,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Java_Book.jpg.1200x1000_q85.jpg",
-    "modified": "2025-10-17T17:50:13.646Z",
-    "source": 10
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 73,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Java_Book.jpg.1200x1000_q90.jpg",
-    "modified": "2025-10-17T17:50:34.194Z",
-    "source": 10
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 74,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Harvard_Green_Tea_xl4CU8T.jpg.400x300_q85_crop-scale.jpg",
-    "modified": "2025-10-17T17:52:19.728Z",
-    "source": 27
-  }
-},
-{
-  "model": "easy_thumbnails.thumbnail",
-  "pk": 75,
-  "fields": {
-    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
-    "name": "products/2025/10/17/Infinix_phone.jpg.1200x1000_q85.jpg",
-    "modified": "2026-03-03T08:43:31.491Z",
-    "source": 7
-  }
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-09-24T09:50:15.820Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Tea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-09-24T09:51:10.099Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Green Tea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-09-24T18:19:03.481Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Electronics",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-09-24T18:19:43.833Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Infinix",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-09-24T18:44:33.002Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Infinix",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-09-24T18:45:58.531Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Infinix",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-09-25T09:50:08.924Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Books",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-09-25T09:50:56.558Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Django5-By-Example",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-09-25T09:51:45.152Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Java Made Easy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-09-25T09:53:23.489Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Python For Beginners",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-09-25T09:53:35.510Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Fruits",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-09-25T09:54:24.556Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Mangoes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-09-25T09:55:07.643Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Oranges",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-09-25T09:56:10.567Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Apples",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-09-25T09:58:01.847Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Explore The Unkown",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-10-16T07:29:22.734Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Order 6",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2025-10-16T07:29:22.735Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Order 5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2025-10-16T07:29:22.735Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Order 4",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2025-10-16T07:29:22.735Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Order 3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2025-10-17T14:27:20.706Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Apples",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2025-10-17T14:27:33.573Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Django5-By-Example",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2025-10-17T14:31:43.354Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Explore The Unkown",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2025-10-17T14:33:13.618Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Explore The Unkown",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2025-10-17T14:34:24.578Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Green Tea",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2025-10-17T16:37:08.465Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Infinix",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2025-10-17T16:39:24.490Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Django5-By-Example",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2025-10-17T16:40:49.342Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Django5-By-Example",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2025-10-17T16:49:45.115Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Java Made Easy",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2025-10-17T16:51:20.136Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Mangoes",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2025-10-17T16:52:27.717Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Oranges",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2025-10-17T16:53:49.633Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Python For Beginners",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2025-10-17T17:19:28.370Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Explore The Unkown",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2025-10-17T17:21:33.765Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Explore The Unkown",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2025-10-17T17:22:46.137Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Explore The Unkown",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2025-10-17T17:24:29.730Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Explore The Unkown",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2025-10-17T17:25:33.964Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Explore The Unkown",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2025-10-17T17:33:17.188Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Explore The Unkown",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2025-10-17T17:33:50.707Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Python For Beginners",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2025-10-17T17:36:07.771Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Green Tea",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2025-10-17T17:37:31.288Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Green Tea",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2025-10-17T17:39:04.263Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Green Tea",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2025-10-17T17:42:05.734Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Green Tea",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2025-10-17T17:43:58.609Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Green Tea",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2025-10-17T17:45:27.423Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Django5-By-Example",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2025-10-17T17:46:59.490Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Django5-By-Example",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2025-10-17T17:48:56.447Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Django-For-E-commerce",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Category\", \"Image\", \"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2025-10-17T17:52:15.123Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Green Tea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.434Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "28",
+        "object_repr": "Order 28",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.434Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "27",
+        "object_repr": "Order 27",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.434Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "26",
+        "object_repr": "Order 26",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.434Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "Order 25",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.434Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "24",
+        "object_repr": "Order 24",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.435Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "23",
+        "object_repr": "Order 23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.435Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "Order 22",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.435Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "Order 21",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.435Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "Order 20",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.435Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Order 19",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.435Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "Order 18",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.435Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "Order 17",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.435Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "Order 16",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2026-03-03T09:16:25.435Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Order 15",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2026-03-03T09:25:13.821Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "30",
+        "object_repr": "Order 30",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2026-03-10T12:08:36.893Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Order 11",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2026-03-16T16:45:13.767Z",
+        "user": 2,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "SUMMER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2026-04-11T07:05:37.825Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "33",
+        "object_repr": "Order 33",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Paid\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2026-04-18T13:02:56.666Z",
+        "user": 2,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "translators",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2026-04-18T13:07:14.239Z",
+        "user": 2,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "translators",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2026-04-18T13:08:30.352Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "alindafortunate5@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2026-04-18T13:08:51.915Z",
+        "user": 2,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "translators",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2026-04-18T13:10:09.006Z",
+        "user": 2,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "translators",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2026-04-20T07:30:11.967Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Fruits",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2026-04-20T07:31:14.308Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Frutas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2026-04-20T07:31:28.838Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Electronics",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2026-04-20T07:31:54.993Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Electrónicos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2026-04-20T07:32:08.610Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Tea",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2026-04-20T07:32:33.111Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Té",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2026-04-20T07:32:57.734Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Books",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2026-04-20T07:33:21.962Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Libros",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2026-04-20T07:33:22.193Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Libros",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2026-04-20T07:36:17.400Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "10",
+        "object_repr": "Green Tea",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2026-04-20T07:36:31.705Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "10",
+        "object_repr": "Té Verde",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2026-04-20T07:37:11.752Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "10",
+        "object_repr": "Green Tea",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2026-04-20T07:37:36.834Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "10",
+        "object_repr": "Green Tea",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2026-04-20T07:37:37.112Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "10",
+        "object_repr": "Green Tea",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2026-04-20T07:38:00.965Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "10",
+        "object_repr": "Té Verde",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2026-04-20T07:38:05.518Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "10",
+        "object_repr": "Té Verde",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2026-04-20T07:39:05.439Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "8",
+        "object_repr": "Apples",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2026-04-20T07:39:37.781Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "8",
+        "object_repr": "Manzanas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2026-04-20T07:40:27.650Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Oranges",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2026-04-20T07:40:59.438Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Naranjas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2026-04-20T07:41:48.207Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Mangoes",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2026-04-20T07:42:22.586Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Mangos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2026-04-20T07:43:15.919Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Java Made Easy",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2026-04-20T07:44:10.466Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Java Hecho Fácil",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2026-04-20T07:45:05.515Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Django5-By-Example",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2026-04-20T07:45:39.110Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Django5 con ejemplos prácticos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2026-04-20T07:46:35.502Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Infinix Smart Phone",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2026-04-20T07:47:29.002Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Smartphone Infinix",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2026-04-20T07:53:09.022Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Django-For-E-commerce",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2026-04-20T07:53:15.635Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Django-For-E-commerce",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2026-04-20T07:53:15.897Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Django-For-E-commerce",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2026-04-20T08:05:01.223Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Django para comercio electrónico",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$pHQdcBw6oGTnwAxVF0rqVl$tjzP8yJTd4YWr7BBBrA+dGTG/KjIhHi+wkZpFKSK9mw=",
+        "last_login": "2025-09-24T09:49:18.246Z",
+        "is_superuser": true,
+        "username": "alindafortunate",
+        "first_name": "",
+        "last_name": "",
+        "email": "alindafortunate@email.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-09-24T09:48:20.980Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$KycRXXo8iubp3FWa7RSsqE$jDzBPqGanlazwAgPkQhLkfDpcc8xNS0a333mXVOa1S4=",
+        "last_login": "2026-04-11T07:04:42.149Z",
+        "is_superuser": true,
+        "username": "alindafortunate@email.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "alindafortunate@email.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-03-03T08:24:35.188Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$oWX8t8muVb4ndlIn6nDK8x$ET/Sy4qboGXIsTu0NYC7Sh5l7FPH4rgRuAv6G3bJe0Q=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "alindafortunate5@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-18T13:08:27.713Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+        "first_name": "Fortunate",
+        "last_name": "Alinda",
+        "email": "alindafortunate@email.com",
+        "address": "Kagadi",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2025-10-13T19:01:30.535Z",
+        "updated": "2025-10-13T19:01:30.535Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 2,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2025-10-16T07:00:00.303Z",
+        "updated": "2025-10-16T07:00:00.303Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 7,
+    "fields": {
+        "first_name": "Lucky",
+        "last_name": "Alinda",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi",
+        "postal_code": "Kyabasale",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2025-10-16T07:47:11.062Z",
+        "updated": "2025-10-16T07:47:11.062Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 8,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2025-10-17T09:38:23.872Z",
+        "updated": "2025-10-17T09:38:23.872Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 9,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2025-10-17T09:40:34.624Z",
+        "updated": "2025-10-17T09:40:34.624Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 10,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2025-10-17T09:46:08.966Z",
+        "updated": "2025-10-17T09:46:08.966Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 11,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunatecode@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2025-10-17T09:49:36.788Z",
+        "updated": "2026-03-10T12:08:36.892Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 12,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunatecode@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2025-10-17T09:54:43.996Z",
+        "updated": "2025-10-17T09:54:43.996Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 13,
+    "fields": {
+        "first_name": "Lucky",
+        "last_name": "Alinda",
+        "email": "alindafortunatecode@gmail.com",
+        "address": "Kagadi",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2025-10-17T09:55:52.898Z",
+        "updated": "2025-10-17T09:55:52.898Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 14,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunatecode@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2025-10-17T10:01:38.904Z",
+        "updated": "2025-10-17T10:01:38.904Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 29,
+    "fields": {
+        "first_name": "Lucky",
+        "last_name": "Alinda",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi",
+        "postal_code": "Kyabasale",
+        "city": "Hoima",
+        "paid": true,
+        "created": "2026-03-03T09:10:51.485Z",
+        "updated": "2026-03-03T09:11:24.324Z",
+        "stripe_id": "pi_3T6oz6DV81U2CVvF0wu0vAs0",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 31,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-03-24T12:45:22.148Z",
+        "updated": "2026-03-24T12:45:22.148Z",
+        "stripe_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 32,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-10T17:37:21.162Z",
+        "updated": "2026-04-10T17:37:21.162Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 33,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": true,
+        "created": "2026-04-11T07:00:08.609Z",
+        "updated": "2026-04-11T07:05:37.823Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 34,
+    "fields": {
+        "first_name": "Lucky",
+        "last_name": "Alinda",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi",
+        "postal_code": "1234",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T08:58:21.436Z",
+        "updated": "2026-04-20T08:58:21.436Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 35,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T09:00:10.345Z",
+        "updated": "2026-04-20T09:00:10.345Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 36,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T09:00:11.191Z",
+        "updated": "2026-04-20T09:00:11.191Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 37,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "90210",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T13:16:04.859Z",
+        "updated": "2026-04-20T13:16:04.860Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 38,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "81012",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T13:16:37.458Z",
+        "updated": "2026-04-20T13:16:37.458Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 39,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange-agagha",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T13:20:55.759Z",
+        "updated": "2026-04-20T13:20:55.759Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 40,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange-agagha",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T13:21:03.159Z",
+        "updated": "2026-04-20T13:21:03.159Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 41,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T13:21:12.623Z",
+        "updated": "2026-04-20T13:21:12.623Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 42,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T13:22:03.220Z",
+        "updated": "2026-04-20T13:22:03.220Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 43,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T13:23:03.894Z",
+        "updated": "2026-04-20T13:23:03.895Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 44,
+    "fields": {
+        "first_name": "Alinda",
+        "last_name": "Fortunate",
+        "email": "alindafortunate5@gmail.com",
+        "address": "Kagadi, Gulu",
+        "postal_code": "Kamuyange.",
+        "city": "Hoima",
+        "paid": false,
+        "created": "2026-04-20T13:23:04.971Z",
+        "updated": "2026-04-20T13:23:04.971Z",
+        "stripe_id": "",
+        "coupon": 1,
+        "discount": 10
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 1,
+    "fields": {
+        "order": 1,
+        "product": 2,
+        "price": "100.00",
+        "quantity": 4
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 2,
+    "fields": {
+        "order": 1,
+        "product": 8,
+        "price": "3.00",
+        "quantity": 3
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 4,
+    "fields": {
+        "order": 2,
+        "product": 3,
+        "price": "50.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 5,
+    "fields": {
+        "order": 7,
+        "product": 8,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 6,
+    "fields": {
+        "order": 8,
+        "product": 8,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 7,
+    "fields": {
+        "order": 9,
+        "product": 3,
+        "price": "50.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 8,
+    "fields": {
+        "order": 10,
+        "product": 3,
+        "price": "50.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 9,
+    "fields": {
+        "order": 11,
+        "product": 2,
+        "price": "100.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 10,
+    "fields": {
+        "order": 12,
+        "product": 4,
+        "price": "50.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 11,
+    "fields": {
+        "order": 13,
+        "product": 1,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 27,
+    "fields": {
+        "order": 29,
+        "product": 8,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 29,
+    "fields": {
+        "order": 31,
+        "product": 8,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 30,
+    "fields": {
+        "order": 32,
+        "product": 8,
+        "price": "3.00",
+        "quantity": 15
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 31,
+    "fields": {
+        "order": 33,
+        "product": 8,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 32,
+    "fields": {
+        "order": 34,
+        "product": 8,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 33,
+    "fields": {
+        "order": 34,
+        "product": 7,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 34,
+    "fields": {
+        "order": 35,
+        "product": 7,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 35,
+    "fields": {
+        "order": 35,
+        "product": 8,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 36,
+    "fields": {
+        "order": 36,
+        "product": 7,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 37,
+    "fields": {
+        "order": 36,
+        "product": 8,
+        "price": "3.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 38,
+    "fields": {
+        "order": 37,
+        "product": 1,
+        "price": "50.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 39,
+    "fields": {
+        "order": 37,
+        "product": 2,
+        "price": "100.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 40,
+    "fields": {
+        "order": 42,
+        "product": 2,
+        "price": "100.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 41,
+    "fields": {
+        "order": 43,
+        "product": 7,
+        "price": "3.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 42,
+    "fields": {
+        "order": 43,
+        "product": 3,
+        "price": "50.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 43,
+    "fields": {
+        "order": 44,
+        "product": 7,
+        "price": "3.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 44,
+    "fields": {
+        "order": 44,
+        "product": 3,
+        "price": "50.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "shop.categorytranslation",
+    "pk": 1,
+    "fields": {
+        "language_code": "en",
+        "name": "Fruits",
+        "slug": "fruits",
+        "master": 4
+    }
+},
+{
+    "model": "shop.categorytranslation",
+    "pk": 2,
+    "fields": {
+        "language_code": "es",
+        "name": "Frutas",
+        "slug": "frutas",
+        "master": 4
+    }
+},
+{
+    "model": "shop.categorytranslation",
+    "pk": 3,
+    "fields": {
+        "language_code": "en",
+        "name": "Electronics",
+        "slug": "electronics",
+        "master": 3
+    }
+},
+{
+    "model": "shop.categorytranslation",
+    "pk": 4,
+    "fields": {
+        "language_code": "es",
+        "name": "Electrónicos",
+        "slug": "electronicos",
+        "master": 3
+    }
+},
+{
+    "model": "shop.categorytranslation",
+    "pk": 5,
+    "fields": {
+        "language_code": "en",
+        "name": "Tea",
+        "slug": "tea",
+        "master": 2
+    }
+},
+{
+    "model": "shop.categorytranslation",
+    "pk": 6,
+    "fields": {
+        "language_code": "es",
+        "name": "Té",
+        "slug": "te",
+        "master": 2
+    }
+},
+{
+    "model": "shop.categorytranslation",
+    "pk": 7,
+    "fields": {
+        "language_code": "en",
+        "name": "Books",
+        "slug": "books",
+        "master": 1
+    }
+},
+{
+    "model": "shop.categorytranslation",
+    "pk": 8,
+    "fields": {
+        "language_code": "es",
+        "name": "Libros",
+        "slug": "libros",
+        "master": 1
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {}
+},
+{
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {}
+},
+{
+    "model": "shop.category",
+    "pk": 3,
+    "fields": {}
+},
+{
+    "model": "shop.category",
+    "pk": 4,
+    "fields": {}
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 1,
+    "fields": {
+        "language_code": "en",
+        "name": "Green Tea",
+        "slug": "green-tea",
+        "description": "A light, healthy tea with antioxidants. Popular for wellness and daily refreshment.",
+        "master": 10
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 2,
+    "fields": {
+        "language_code": "es",
+        "name": "Té Verde",
+        "slug": "te-verde",
+        "description": "Un té ligero y saludable con antioxidantes. Popular para el bienestar y el consumo diario.",
+        "master": 10
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 3,
+    "fields": {
+        "language_code": "en",
+        "name": "Apples",
+        "slug": "apples",
+        "description": "Fresh, sweet, and crunchy fruit. Great for snacking, baking, or juices.",
+        "master": 8
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 4,
+    "fields": {
+        "language_code": "es",
+        "name": "Manzanas",
+        "slug": "manzanas",
+        "description": "Fruta fresca, dulce y crujiente. Ideal para comer sola, hornear o hacer jugos.",
+        "master": 8
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 5,
+    "fields": {
+        "language_code": "en",
+        "name": "Oranges",
+        "slug": "oranges",
+        "description": "Juicy, vitamin-rich citrus fruit. Perfect for fresh juice, snacks, or desserts.",
+        "master": 7
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 6,
+    "fields": {
+        "language_code": "es",
+        "name": "Naranjas",
+        "slug": "naranjas",
+        "description": "Fruta cítrica jugosa y rica en vitaminas. Perfecta para jugo fresco, meriendas o postres.",
+        "master": 7
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 7,
+    "fields": {
+        "language_code": "en",
+        "name": "Mangoes",
+        "slug": "mangoes",
+        "description": "Sweet, tropical fruit with smooth, juicy flesh. Ideal for smoothies, salads, or eating fresh.",
+        "master": 6
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 8,
+    "fields": {
+        "language_code": "es",
+        "name": "Mangos",
+        "slug": "mangos",
+        "description": "Fruta tropical dulce, de pulpa suave y jugosa. Ideal para batidos, ensaladas o comer fresca.",
+        "master": 6
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 9,
+    "fields": {
+        "language_code": "en",
+        "name": "Java Made Easy",
+        "slug": "java-made-easy",
+        "description": "A beginner-friendly resource for learning Java programming quickly and effectively.",
+        "master": 4
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 10,
+    "fields": {
+        "language_code": "es",
+        "name": "Java Hecho Fácil",
+        "slug": "java-hecho-facil",
+        "description": "Un recurso amigable para principiantes que enseña programación en Java de forma rápida y efectiva.",
+        "master": 4
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 11,
+    "fields": {
+        "language_code": "en",
+        "name": "Django5-By-Example",
+        "slug": "django5-by-example",
+        "description": "Learn Django 5 through real-world, practical examples. Ideal for developers building web applications quickly.",
+        "master": 3
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 12,
+    "fields": {
+        "language_code": "es",
+        "name": "Django5 con ejemplos prácticos",
+        "slug": "django5-con-ejemplos-practicos",
+        "description": "Aprende Django 5 a través de ejemplos prácticos del mundo real. Ideal para desarrolladores que crean aplicaciones web rápidamente.",
+        "master": 3
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 13,
+    "fields": {
+        "language_code": "en",
+        "name": "Infinix Smart Phone",
+        "slug": "infinix-smart-phone",
+        "description": "Affordable, feature-packed smartphone with good performance and battery life. Ideal for everyday use and entertainment.",
+        "master": 2
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 14,
+    "fields": {
+        "language_code": "es",
+        "name": "Smartphone Infinix",
+        "slug": "smartphone-infinix",
+        "description": "Teléfono inteligente asequible, con buenas prestaciones y batería de larga duración. Ideal para el uso diario y el entretenimiento.",
+        "master": 2
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 15,
+    "fields": {
+        "language_code": "en",
+        "name": "Django-For-E-commerce",
+        "slug": "django-for-e-commerce",
+        "description": "Build powerful online stores using Django. Covers shopping carts, payments, and product management.",
+        "master": 1
+    }
+},
+{
+    "model": "shop.producttranslation",
+    "pk": 16,
+    "fields": {
+        "language_code": "es",
+        "name": "Django para comercio electrónico",
+        "slug": "django-para-comercio-electronico",
+        "description": "Crea tiendas en línea potentes con Django. Incluye carritos de compra, pagos y gestión de productos.",
+        "master": 1
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+        "category": 3,
+        "image": "products/2025/10/17/The_unkown_on_Django_0hcBdMW.jpg",
+        "price": "50.00",
+        "created": "2025-09-24T09:51:10.033Z",
+        "updated": "2026-04-20T08:05:01.217Z",
+        "available": true
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+        "category": 2,
+        "image": "products/2025/10/17/Infinix_phone.jpg",
+        "price": "100.00",
+        "created": "2025-09-24T18:19:43.784Z",
+        "updated": "2026-04-20T07:47:28.999Z",
+        "available": true
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 3,
+    "fields": {
+        "category": 3,
+        "image": "products/2025/10/17/Django5_By_Example_fNmbPsj.jpg",
+        "price": "50.00",
+        "created": "2025-09-25T09:50:56.558Z",
+        "updated": "2026-04-20T07:45:39.107Z",
+        "available": true
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 4,
+    "fields": {
+        "category": 3,
+        "image": "products/2025/10/17/Java_Book.jpg",
+        "price": "50.00",
+        "created": "2025-09-25T09:51:45.152Z",
+        "updated": "2026-04-20T07:44:10.453Z",
+        "available": true
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 6,
+    "fields": {
+        "category": 4,
+        "image": "products/2025/10/17/Mangoes.jpg",
+        "price": "3.00",
+        "created": "2025-09-25T09:54:24.555Z",
+        "updated": "2026-04-20T07:42:22.583Z",
+        "available": true
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 7,
+    "fields": {
+        "category": 4,
+        "image": "products/2025/10/17/Oranges.jpg",
+        "price": "3.00",
+        "created": "2025-09-25T09:55:07.641Z",
+        "updated": "2026-04-20T07:40:59.433Z",
+        "available": true
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 8,
+    "fields": {
+        "category": 4,
+        "image": "products/2025/10/17/Apples.jpg",
+        "price": "3.00",
+        "created": "2025-09-25T09:56:10.566Z",
+        "updated": "2026-04-20T07:39:37.777Z",
+        "available": true
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 10,
+    "fields": {
+        "category": 1,
+        "image": "products/2025/10/17/Harvard_Green_Tea_xl4CU8T.jpg",
+        "price": "10.00",
+        "created": "2025-10-17T17:52:15.122Z",
+        "updated": "2026-04-20T07:38:05.516Z",
+        "available": true
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 1,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/09/24/infinix_phone1.jpg",
+        "modified": "2025-10-17T14:30:00.073Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 2,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Apples.jpg",
+        "modified": "2025-10-17T17:46:13.211Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 3,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django5_By_Example.jpg",
+        "modified": "2025-10-17T14:29:45.282Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 4,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Explore_the_unknown.jpg",
+        "modified": "2025-10-17T14:31:47.173Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 5,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Explore_the_unknown002.jpg",
+        "modified": "2025-10-17T16:48:34.558Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 6,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg",
+        "modified": "2025-10-17T16:48:34.791Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 7,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Infinix_phone.jpg",
+        "modified": "2026-03-03T08:43:31.349Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 8,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django_Book.jpg",
+        "modified": "2025-10-17T16:39:27.558Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 9,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Pro_Django.jpg",
+        "modified": "2025-10-17T16:48:34.316Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 10,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Java_Book.jpg",
+        "modified": "2025-10-17T17:50:34.078Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 11,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Mangoes.jpg",
+        "modified": "2025-10-17T17:46:14.512Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 12,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Oranges.jpg",
+        "modified": "2026-04-20T08:54:21.886Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 13,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Python_Book.jpg",
+        "modified": "2025-10-17T16:53:53.166Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 14,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/The_unkown.jpg",
+        "modified": "2025-10-17T17:19:31.158Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 15,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Unkown2.jpg",
+        "modified": "2025-10-17T17:21:37.012Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 16,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/The_unkown_ibvHaio.jpg",
+        "modified": "2025-10-17T17:22:49.238Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 17,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Unkown3.jpg",
+        "modified": "2025-10-17T17:24:32.709Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 18,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/The_unkown_on_Django.jpg",
+        "modified": "2025-10-17T17:25:59.687Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 19,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea1.jpg",
+        "modified": "2025-10-17T17:36:10.067Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 20,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/green_tea3.jpg",
+        "modified": "2025-10-17T17:37:33.858Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 21,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea.jpg",
+        "modified": "2025-10-17T17:39:07.985Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 22,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea_208x209.jpg",
+        "modified": "2025-10-17T17:42:08.492Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 23,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea_1_224x2253.jpg",
+        "modified": "2025-10-17T17:46:13.657Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 24,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django5_By_Example_224x276.jpg",
+        "modified": "2025-10-17T17:46:13.435Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 25,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django5_By_Example_fNmbPsj.jpg",
+        "modified": "2025-10-17T17:47:02.161Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 26,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/The_unkown_on_Django_0hcBdMW.jpg",
+        "modified": "2025-10-17T17:48:59.441Z"
+    }
+},
+{
+    "model": "easy_thumbnails.source",
+    "pk": 27,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea_xl4CU8T.jpg",
+        "modified": "2026-03-24T12:58:45.119Z"
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 1,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/09/24/infinix_phone1.jpg.300x300_q85.jpg",
+        "modified": "2025-10-17T14:20:02.416Z",
+        "source": 1
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 2,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Apples.jpg.300x300_q85.jpg",
+        "modified": "2025-10-17T14:27:40.555Z",
+        "source": 2
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 3,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django5_By_Example.jpg.300x300_q85.jpg",
+        "modified": "2025-10-17T14:27:40.648Z",
+        "source": 3
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 4,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django5_By_Example.jpg.800x800_q85.jpg",
+        "modified": "2025-10-17T14:28:57.786Z",
+        "source": 3
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 5,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django5_By_Example.jpg.600x600_q85.jpg",
+        "modified": "2025-10-17T14:29:45.432Z",
+        "source": 3
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 6,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Apples.jpg.600x600_q85.jpg",
+        "modified": "2025-10-17T14:29:59.965Z",
+        "source": 2
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 7,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/09/24/infinix_phone1.jpg.600x600_q85.jpg",
+        "modified": "2025-10-17T14:30:00.176Z",
+        "source": 1
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 8,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Explore_the_unknown.jpg.600x600_q85.jpg",
+        "modified": "2025-10-17T14:31:47.346Z",
+        "source": 4
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 9,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Explore_the_unknown002.jpg.600x600_q85.jpg",
+        "modified": "2025-10-17T14:33:16.615Z",
+        "source": 5
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 10,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.600x600_q85.jpg",
+        "modified": "2025-10-17T14:34:27.972Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 11,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.500x500_q85.jpg",
+        "modified": "2025-10-17T14:35:32.808Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 12,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.400x400_q85.jpg",
+        "modified": "2025-10-17T14:35:48.297Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 13,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.300x300_q85.jpg",
+        "modified": "2025-10-17T15:24:35.044Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 14,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.200x200_q85.jpg",
+        "modified": "2025-10-17T15:24:53.867Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 15,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.100x100_q85.jpg",
+        "modified": "2025-10-17T15:37:49.877Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 16,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.1000x1000_q85.jpg",
+        "modified": "2025-10-17T15:38:21.967Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 17,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Explore_the_unknown002.jpg.1000x1000_q85.jpg",
+        "modified": "2025-10-17T16:00:46.202Z",
+        "source": 5
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 18,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Infinix_phone.jpg.600x600_q85.jpg",
+        "modified": "2025-10-17T16:37:15.039Z",
+        "source": 7
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 19,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django_Book.jpg.600x600_q85.jpg",
+        "modified": "2025-10-17T16:39:27.724Z",
+        "source": 8
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 20,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Pro_Django.jpg.600x600_q85.jpg",
+        "modified": "2025-10-17T16:40:52.968Z",
+        "source": 9
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 21,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Apples.jpg.600x600_q85_crop-smart.jpg",
+        "modified": "2025-10-17T16:41:38.689Z",
+        "source": 2
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 22,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Pro_Django.jpg.600x600_q85_crop-smart.jpg",
+        "modified": "2025-10-17T16:41:38.900Z",
+        "source": 9
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 23,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Explore_the_unknown002.jpg.600x600_q85_crop-smart.jpg",
+        "modified": "2025-10-17T16:41:39.224Z",
+        "source": 5
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 24,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.600x600_q85_crop-smart.jpg",
+        "modified": "2025-10-17T16:41:39.455Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 25,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Infinix_phone.jpg.600x600_q85_crop-smart.jpg",
+        "modified": "2025-10-17T16:41:39.685Z",
+        "source": 7
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 26,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Apples.jpg.600x600_q85_crop-center.jpg",
+        "modified": "2025-10-17T16:47:25.492Z",
+        "source": 2
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 27,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Pro_Django.jpg.600x600_q85_crop-center.jpg",
+        "modified": "2025-10-17T16:47:25.725Z",
+        "source": 9
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 28,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Explore_the_unknown002.jpg.600x600_q85_crop-center.jpg",
+        "modified": "2025-10-17T16:47:26.085Z",
+        "source": 5
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 29,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.600x600_q85_crop-center.jpg",
+        "modified": "2025-10-17T16:47:26.468Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 30,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Infinix_phone.jpg.600x600_q85_crop-center.jpg",
+        "modified": "2025-10-17T16:47:26.724Z",
+        "source": 7
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 31,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Apples.jpg.400x300_q85_crop-center.jpg",
+        "modified": "2025-10-17T16:48:06.252Z",
+        "source": 2
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 32,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Pro_Django.jpg.400x300_q85_crop-center.jpg",
+        "modified": "2025-10-17T16:48:06.471Z",
+        "source": 9
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 33,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Explore_the_unknown002.jpg.400x300_q85_crop-center.jpg",
+        "modified": "2025-10-17T16:48:06.748Z",
+        "source": 5
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 34,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.400x300_q85_crop-center.jpg",
+        "modified": "2025-10-17T16:48:07.206Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 35,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Infinix_phone.jpg.400x300_q85_crop-center.jpg",
+        "modified": "2025-10-17T16:48:07.424Z",
+        "source": 7
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 36,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Apples.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T16:48:34.186Z",
+        "source": 2
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 37,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Pro_Django.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T16:48:34.439Z",
+        "source": 9
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 38,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Explore_the_unknown002.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T16:48:34.662Z",
+        "source": 5
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 39,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T16:48:34.929Z",
+        "source": 6
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 40,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Infinix_phone.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T16:48:35.184Z",
+        "source": 7
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 41,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Java_Book.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T16:49:52.929Z",
+        "source": 10
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 42,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Mangoes.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T16:51:24.100Z",
+        "source": 11
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 43,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Oranges.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T16:52:31.725Z",
+        "source": 12
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 44,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Python_Book.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T16:53:53.297Z",
+        "source": 13
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 45,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/The_unkown.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:19:31.267Z",
+        "source": 14
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 46,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Unkown2.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:21:37.144Z",
+        "source": 15
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 47,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/The_unkown_ibvHaio.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:22:49.446Z",
+        "source": 16
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 48,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Unkown3.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:24:32.886Z",
+        "source": 17
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 49,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/The_unkown_on_Django.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:25:37.486Z",
+        "source": 18
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 50,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/The_unkown_on_Django.jpg.1000x1000_q85.jpg",
+        "modified": "2025-10-17T17:25:59.824Z",
+        "source": 18
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 51,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Green_Tea1.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:36:10.231Z",
+        "source": 19
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 52,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/green_tea3.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:37:34.020Z",
+        "source": 20
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 53,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:39:08.087Z",
+        "source": 21
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 54,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea_208x209.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:42:08.630Z",
+        "source": 22
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 55,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea_1_224x2253.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:44:01.779Z",
+        "source": 23
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 56,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django5_By_Example_224x276.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:45:30.537Z",
+        "source": 24
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 57,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django5_By_Example_224x276.jpg.400x300_q85_crop-center.jpg",
+        "modified": "2025-10-17T17:46:02.071Z",
+        "source": 24
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 58,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea_1_224x2253.jpg.400x300_q85_crop-center.jpg",
+        "modified": "2025-10-17T17:46:02.276Z",
+        "source": 23
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 59,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Java_Book.jpg.400x300_q85_crop-center.jpg",
+        "modified": "2025-10-17T17:46:02.519Z",
+        "source": 10
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 60,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Mangoes.jpg.400x300_q85_crop-center.jpg",
+        "modified": "2025-10-17T17:46:02.809Z",
+        "source": 11
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 61,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Oranges.jpg.400x300_q85_crop-center.jpg",
+        "modified": "2025-10-17T17:46:03.040Z",
+        "source": 12
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 62,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Apples.jpg.400x300_q85.jpg",
+        "modified": "2025-10-17T17:46:13.327Z",
+        "source": 2
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 63,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django5_By_Example_224x276.jpg.400x300_q85.jpg",
+        "modified": "2025-10-17T17:46:13.535Z",
+        "source": 24
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 64,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea_1_224x2253.jpg.400x300_q85.jpg",
+        "modified": "2025-10-17T17:46:13.745Z",
+        "source": 23
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 65,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Infinix_phone.jpg.400x300_q85.jpg",
+        "modified": "2025-10-17T17:46:14.173Z",
+        "source": 7
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 66,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Java_Book.jpg.400x300_q85.jpg",
+        "modified": "2025-10-17T17:46:14.416Z",
+        "source": 10
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 67,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Mangoes.jpg.400x300_q85.jpg",
+        "modified": "2025-10-17T17:46:14.602Z",
+        "source": 11
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 68,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Oranges.jpg.400x300_q85.jpg",
+        "modified": "2025-10-17T17:46:14.880Z",
+        "source": 12
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 69,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Django5_By_Example_fNmbPsj.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:47:02.323Z",
+        "source": 25
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 70,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/The_unkown_on_Django_0hcBdMW.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:48:59.618Z",
+        "source": 26
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 71,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Java_Book.jpg.1000x1000_q85.jpg",
+        "modified": "2025-10-17T17:49:50.221Z",
+        "source": 10
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 72,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Java_Book.jpg.1200x1000_q85.jpg",
+        "modified": "2025-10-17T17:50:13.646Z",
+        "source": 10
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 73,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Java_Book.jpg.1200x1000_q90.jpg",
+        "modified": "2025-10-17T17:50:34.194Z",
+        "source": 10
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 74,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea_xl4CU8T.jpg.400x300_q85_crop-scale.jpg",
+        "modified": "2025-10-17T17:52:19.728Z",
+        "source": 27
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 75,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Infinix_phone.jpg.1200x1000_q85.jpg",
+        "modified": "2026-03-03T08:43:31.491Z",
+        "source": 7
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 76,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea_xl4CU8T.jpg.1200x1000_q85.jpg",
+        "modified": "2026-03-24T12:58:41.908Z",
+        "source": 27
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 77,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Harvard_Green_Tea_xl4CU8T.jpg.600x600_q85.jpg",
+        "modified": "2026-03-24T12:58:45.252Z",
+        "source": 27
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 78,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Oranges.jpg.1200x1000_q85.jpg",
+        "modified": "2026-04-14T10:01:29.913Z",
+        "source": 12
+    }
+},
+{
+    "model": "easy_thumbnails.thumbnail",
+    "pk": 79,
+    "fields": {
+        "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+        "name": "products/2025/10/17/Oranges.jpg.600x600_q85.jpg",
+        "modified": "2026-04-20T08:54:22.048Z",
+        "source": 12
+    }
+},
+{
+    "model": "coupons.coupon",
+    "pk": 1,
+    "fields": {
+        "code": "SUMMER",
+        "discount": 10,
+        "valid_from": "2026-03-16T00:00:00Z",
+        "valid_to": "2027-03-16T00:00:00Z",
+        "active": true
+    }
 }
 ]
