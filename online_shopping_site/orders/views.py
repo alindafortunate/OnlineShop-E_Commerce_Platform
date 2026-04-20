@@ -8,6 +8,8 @@ from .models import Order, OrderItem
 from .forms import OrderCreateForm
 from cart.cart import Cart
 from .tasks import order_created
+from shop.recommender import Recommender  
+
 
 
 def order_create(request):
@@ -20,6 +22,8 @@ def order_create(request):
                 order.coupon = cart.coupon
                 order.discount = cart.coupon.discount
             order.save()
+            # Collect products in the cart before creating OrderItems
+            products_in_cart = [item["product"] for item in cart]
             for item in cart:
                 OrderItem.objects.create(
                     order=order,
@@ -27,6 +31,13 @@ def order_create(request):
                     price=item["price"],
                     quantity=item["quantity"],
                 )
+            try:
+                recommender = Recommender()
+                recommender.products_bought(products_in_cart)
+            except Exception as e:
+                # Log the error but don't break the checkout flow
+                print(f"Recommender error: {e}")
+                
             # clear the cart.
             cart.clear()
             # Launch an asychronous order_created task
