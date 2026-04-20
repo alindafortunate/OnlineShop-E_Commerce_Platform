@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-19 15:37+0000\n"
-"PO-Revision-Date: 2026-04-19 15:39+0000\n"
+"POT-Creation-Date: 2026-04-20 08:52+0000\n"
+"PO-Revision-Date: 2026-04-20 08:53+0000\n"
 "Last-Translator:   <alindafortunate@email.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -51,6 +51,7 @@ msgstr "Precio unitario"
 
 #: cart/templates/cart/detail.html:18
 #: payment/templates/payment/process.html:13
+#: shop/templates/shop/products/detail.html:14
 msgid "Price"
 msgstr "Precio"
 
@@ -112,11 +113,11 @@ msgstr "Comprar"
 msgid "Coupon"
 msgstr "Cupón"
 
-#: online_shopping_site/settings.py:127
+#: online_shopping_site/settings.py:128
 msgid "English"
 msgstr "Inglés"
 
-#: online_shopping_site/settings.py:128
+#: online_shopping_site/settings.py:129
 msgid "Spanish"
 msgstr "Español"
 
@@ -244,14 +245,13 @@ msgstr "Categorías"
 msgid "All"
 msgstr "Todos"
 
-#: shop/templates/shop/products/list.html:25
-#, python-format
-msgid " %(category_name)s"
-msgstr "%(category_name)s"
-
-#: shop/templates/shop/products/list.html:28
+#: shop/templates/shop/products/list.html:24
 msgid "Products"
 msgstr "Productos"
+
+#, python-format
+#~ msgid " %(category_name)s"
+#~ msgstr "%(category_name)s"
 
 #, python-format
 #~ msgid ""
