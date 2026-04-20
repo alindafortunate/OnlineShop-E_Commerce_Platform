@@ -3,13 +3,14 @@ from django.conf import settings
 from .models import Product
 
 
-# connecting to redis
-r = redis.Redis(
-    host=settings.REDIS_HOST,
-    port=settings.REDIS_PORT,
-    db=settings.REDIS_DB,
-)
-
+# # connecting to redis locally
+# r = redis.Redis(
+#     host=settings.REDIS_HOST,
+#     port=settings.REDIS_PORT,
+#     db=settings.REDIS_DB,
+# )
+# # connecting to redis online from render
+r = redis.from_url(settings.REDIS_URL)
 
 class Recommender:
     """This class helps on product recommendation."""

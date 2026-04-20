@@ -188,3 +188,6 @@ STRIPE_WEBHOOK_SECRET = config("STRIPE_WEBHOOK_SECRET")
 REDIS_HOST = "localhost"
 REDIS_PORT = 6379
 REDIS_DB = 0
+
+# Online Redis from Render.
+REDIS_URL = config("REDIS_URL")
