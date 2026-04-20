@@ -13,6 +13,7 @@ click-repl==0.3.0
 cssselect2==0.9.0
 dj-database-url==3.0.1
 Django==5.2.6
+django-localflavor==5.0
 django-parler==2.3
 django-rosetta==0.10.3
 easy-thumbnails==2.10.1
@@ -34,6 +35,7 @@ pydyf==0.12.1
 pyphen==0.17.2
 python-dateutil==2.9.0.post0
 python-decouple==3.8
+python-stdnum==2.2
 pytz==2025.2
 redis==7.4.0
 requests==2.32.5
